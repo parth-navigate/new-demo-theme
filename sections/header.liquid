@@ -16,11 +16,12 @@
         </div>
       </div>
        <div class="banner-slider owl-carousel owl-theme">
-       {%- for block in section.blocks -%}
+<!--        {%- for block in section.blocks -%}
       <div>
       <img src="{{ section.settings.bannerimages | image_url}}"/>
       </div>
-      {% endfor %}
+      {% endfor %} -->
+        <img src="{{ section.settings.bannerimages | image_url}}"/>
     </div>
     
         
@@ -72,6 +73,11 @@
       "type": "image_picker",
       "id": "icons-3",
       "label": "painting-image-1"
+    },
+         {
+      "type": "image_picker",
+      "id": "bannerimages",
+      "label": "bannaer-image-1"
     }
 
 
@@ -87,12 +93,7 @@
         "type": "text",
         "id": "catagary_text",
         "label": "text"
-        },
-         {
-      "type": "image_picker",
-      "id": "bannerimages",
-      "label": "bannaer-image-1"
-    }
+        }
    ]
   }
   ]
