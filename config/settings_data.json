@@ -31,8 +31,7 @@
           "642c34e4-8010-4cbd-81f7-d0d6399a38d0": {
             "type": "text",
             "settings": {
-              "catagary_text": "",
-              "icons": "shopify:\/\/shop_images\/icons8-search-15.png"
+              "catagary_text": ""
             }
           }
         },
@@ -44,7 +43,8 @@
           "642c34e4-8010-4cbd-81f7-d0d6399a38d0"
         ],
         "settings": {
-          "logo": "shopify:\/\/shop_images\/Logo-Navigate.png"
+          "logo": "shopify:\/\/shop_images\/Logo-Navigate.png",
+          "icons": "shopify:\/\/shop_images\/icons8-search-15.png"
         }
       }
     },
