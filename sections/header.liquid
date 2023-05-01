@@ -1,7 +1,7 @@
 <div class="main">
   <div class="parant">
     <div class="section-1">
-      <div>
+      <div class="header-icons">
         <img src="{{ section.settings.logo | image_url }} "/>
         <div>
           {%- for block in section.blocks -%}
@@ -18,6 +18,15 @@
     </div>
   </div>
 </div>
+<style>
+  .header-icons{
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    align-items: center;
+    padding: 15px 20px;
+  }
+</style>
 {% schema %}
   {
     "name": "header section",
