@@ -9,10 +9,10 @@
           {% endfor %}
         </div>
         <div>
-          <a  href=""><img src="{{ section.settings.icons | image_url}}"/></a>
-          <a  href=""><img src="{{ section.settings.icons-1 | image_url}}"/></a>
-          <a  href=""><img src="{{ section.settings.icons-2 | image_url}}"/></a>
-          <a  href=""><img src="{{ section.settings.icons-3 | image_url}}"/></a>
+          <a class="icons" href=""><img src="{{ section.settings.icons | image_url}}"/></a>
+          <a class="icons" href=""><img src="{{ section.settings.icons-1 | image_url}}"/></a>
+          <a class="icons" href=""><img src="{{ section.settings.icons-2 | image_url}}"/></a>
+          <a class="" href=""><img src="{{ section.settings.icons-3 | image_url}}"/></a>
         </div>
       </div>
     </div>
@@ -30,6 +30,9 @@
     text-decoration: none;
     color: white;
     padding-right: 8px;
+  }
+  .icons{
+    padding-right:10px;
   }
 </style>
 {% schema %}
