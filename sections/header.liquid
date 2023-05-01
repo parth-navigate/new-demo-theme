@@ -9,7 +9,9 @@
           {% endfor %}
         </div>
         <div>
-          <a><img src="{{ block.settings.icons | image_url}}"/></a>
+          {%- for block in section.blocks -%}
+          <a href=""><img src="{{ block.settings.icons | image_url}}"/></a>
+          {% endfor %}
         </div>
       </div>
     </div>
