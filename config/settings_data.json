@@ -31,22 +31,19 @@
           "642c34e4-8010-4cbd-81f7-d0d6399a38d0": {
             "type": "text",
             "settings": {
-              "catagary_text": "",
-              "bannerimages": "shopify:\/\/shop_images\/1.top-banner-nft_2200x_4228906a-a098-410d-a4ec-58575b727c40.png"
+              "catagary_text": ""
             }
           },
           "30c7939e-f3f2-46ab-929e-b804c8211590": {
             "type": "text",
             "settings": {
-              "catagary_text": "",
-              "bannerimages": "shopify:\/\/shop_images\/banner-for-phil_2200x_ef96e95d-c8ca-4284-8a76-23b9fe976d77.webp"
+              "catagary_text": ""
             }
           },
           "6e1c989c-b6ee-488c-b729-588683bc03d4": {
             "type": "text",
             "settings": {
-              "catagary_text": "",
-              "bannerimages": "shopify:\/\/shop_images\/item-5.png"
+              "catagary_text": ""
             }
           }
         },
@@ -64,7 +61,8 @@
           "icons": "shopify:\/\/shop_images\/icons8-search-15.png",
           "icons-1": "shopify:\/\/shop_images\/icons8-user-15.png",
           "icons-2": "shopify:\/\/shop_images\/icons8-heart-15.png",
-          "icons-3": "shopify:\/\/shop_images\/icons8-fast-cart-15.png"
+          "icons-3": "shopify:\/\/shop_images\/icons8-fast-cart-15.png",
+          "bannerimages": "shopify:\/\/shop_images\/1.top-banner-nft_2200x_4228906a-a098-410d-a4ec-58575b727c40.png"
         }
       }
     },
