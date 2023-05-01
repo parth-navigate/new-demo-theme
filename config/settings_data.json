@@ -1,6 +1,50 @@
 {
-  "current": "Default",
+  "current": {
+    "sections": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "d594f828-135a-4868-9ef2-24aca710319b": {
+            "type": "text",
+            "settings": {
+              "catagary_text": "Shop by category"
+            }
+          },
+          "ad774f15-79bd-4c3d-8567-61a715195cb6": {
+            "type": "text",
+            "settings": {
+              "catagary_text": "shop by Device"
+            }
+          },
+          "1413a273-ac99-47b2-8d61-de59b3f28b3b": {
+            "type": "text",
+            "settings": {
+              "catagary_text": "Collections"
+            }
+          },
+          "f1aa8a82-5249-46f4-ba40-7c1ae4028ce4": {
+            "type": "text",
+            "settings": {
+              "catagary_text": "blog"
+            }
+          }
+        },
+        "block_order": [
+          "d594f828-135a-4868-9ef2-24aca710319b",
+          "ad774f15-79bd-4c3d-8567-61a715195cb6",
+          "1413a273-ac99-47b2-8d61-de59b3f28b3b",
+          "f1aa8a82-5249-46f4-ba40-7c1ae4028ce4"
+        ],
+        "settings": {
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  },
   "presets": {
-    "Default": { }
+    "Default": {
+    }
   }
 }
