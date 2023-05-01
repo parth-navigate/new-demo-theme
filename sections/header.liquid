@@ -9,10 +9,10 @@
           {% endfor %}
         </div>
         <div>
-          <a href=""><img src="{{ section.settings.icons | image_url}}"/></a>
-          <a href=""><img src="{{ section.settings.icons-1 | image_url}}"/></a>
-          <a href=""><img src="{{ section.settings.icons-2 | image_url}}"/></a>
-          <a href=""><img src="{{ section.settings.icons-3 | image_url}}"/></a>
+          <a class="linktext" href=""><img src="{{ section.settings.icons | image_url}}"/></a>
+          <a class="linktext"  href=""><img src="{{ section.settings.icons-1 | image_url}}"/></a>
+          <a class="linktext"  href=""><img src="{{ section.settings.icons-2 | image_url}}"/></a>
+          <a class="linktext"  href=""><img src="{{ section.settings.icons-3 | image_url}}"/></a>
         </div>
       </div>
     </div>
@@ -25,6 +25,11 @@
     background: black;
     align-items: center;
     padding: 15px 20px;
+  }
+  .linktext{
+    text-decoration: none;
+    color: white;
+    padding-right: 8px;
   }
 </style>
 {% schema %}
