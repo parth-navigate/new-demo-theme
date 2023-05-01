@@ -8,6 +8,9 @@
           <a href="">{{ block.settings.catagary_text }}</a>
           {% endfor %}
         </div>
+        <div>
+          <a><img src="{{ block.settings.icons }}"/></a>
+        </div>
       </div>
     </div>
   </div>
@@ -32,7 +35,12 @@
         "type": "text",
         "id": "catagary_text",
         "label": "text"
-        }
+        },
+       {
+      "type": "image_picker",
+      "id": "icons",
+      "label": "painting-image-1"
+    }
    ]
   }
   ]
