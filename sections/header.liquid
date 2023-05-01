@@ -15,6 +15,15 @@
           <a class="" href=""><img src="{{ section.settings.icons-3 | image_url}}"/></a>
         </div>
       </div>
+       <div class="banner-slider owl-carousel owl-theme">
+       {%- for block in section.blocks -%}
+      <div>
+      <img class="" src="{{ block.settings.Rectangle444 | image_url  }}">
+      </div>
+      {% endfor %}
+    </div>
+    
+        
     </div>
   </div>
 </div>
