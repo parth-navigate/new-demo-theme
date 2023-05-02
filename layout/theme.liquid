@@ -11,7 +11,7 @@
   {{ 'application.css' | asset_url | stylesheet_tag }}
   {{ 'application.js' | asset_url | script_tag }}
 </head>
-<body>
+<body style="margin:0;">
 <!-- 
   {% for link in linklists.main-menu.links %}
     {% assign child_list_handle = link.title | handleize %}
