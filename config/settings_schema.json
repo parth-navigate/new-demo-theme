@@ -18,6 +18,25 @@
         "type": "text",
         "id": "social_text_link",
         "label": "text"
+      },
+      {
+        "type": "select",
+        "id": "demoleftright",
+        "label": "Products per row",
+        "options": [
+          {
+            "value": "left",
+            "label": "left"
+          },
+          {
+            "value": "right",
+            "label": "right"
+          },
+          {
+            "value": "center",
+            "label": "center"
+          }
+        ]
       }
     ]
   }
