@@ -13,6 +13,11 @@
       {
         "type": "header",
         "content": "Body"
+      },
+      {
+        "type": "text",
+        "id": "social_text_link",
+        "label": "text"
       }
     ]
   }
