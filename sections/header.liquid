@@ -29,14 +29,14 @@
     </div>
   </div>
 </div>
-<div style="display: flex;
-    justify-content: space-evenly;">
+
     <div class="{{ section.settings.demoleftright }}">
+    <div style="display:flex;">
     <div class="Insert" >Insert your content to be shown here</div>
     <div class="logo" >logo</div>
     <div class="right-content">right content</div> 
     </div>
-</div> 
+    </div>
 <style>
   .banner-image{
     width:100%;
@@ -59,33 +59,7 @@
   .owl-carousel{
     display: inherit;
   }
-  .Insert{
-     order:2;
-    }
-    .logo{
-      order:1;
-    }
-    .right-content{
-      order:3;
-    }
-    .right>.right-content{
-       order:1;
-    }
-    .right>.logo{
-       order:3;
-    }
-     .right>.Insert {
-    order: 2;
-    }
-    .center>.Insert {
-    order: 1;
-}
-     .center>.right-content{
-       order:2;
-    }
-    .center>.logo{
-       order:3;
-    }
+  
 </style>
 {% schema %}
   {
