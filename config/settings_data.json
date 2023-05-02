@@ -64,6 +64,12 @@
           "icons-3": "shopify:\/\/shop_images\/icons8-fast-cart-15.png",
           "bannerimages": "shopify:\/\/shop_images\/1.top-banner-nft_2200x_4228906a-a098-410d-a4ec-58575b727c40.png"
         }
+      },
+      "header-1": {
+        "type": "header-1",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/Logo-Navigate.png"
+        }
       }
     },
     "content_for_index": [
