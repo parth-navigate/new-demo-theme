@@ -47,6 +47,7 @@
   </script>
   {{ 'owl.theme.default.min.css ' | asset_url |stylesheet_tag }}
   {{ 'owl.carousel.min.css' | asset_url | stylesheet_tag}}
-  {{ 'homepage-js' | asset_url }}
+   <script src="{{ 'homepage-js' | asset_url }}" defer="defer"></script> 
+<!--   {{ 'homepage-js' | asset_url }} -->
 </body>
 </html>
