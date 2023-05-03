@@ -30,13 +30,15 @@
   </div>
 </div>
 
-    <div class="{{ section.settings.demoleftright }}">
+<!--     <div class="{{ section.settings.demoleftright }}"> -->
     <div style="display:flex; justify-content: space-around;">
+     {% if Insert =='Insert' %} 
     <div class="Insert" >Insert your content to be shown here</div>
+    {% endif %}
     <div class="logo" >logo</div>
     <div class="right-content">right content</div> 
     </div>
-    </div>
+<!--     </div> -->
 <style>
   .banner-image{
     width:100%;
