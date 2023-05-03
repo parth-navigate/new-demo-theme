@@ -32,9 +32,12 @@
 
    <div class="{{ section.settings.demoleftright }}">
     <div style="display:flex; justify-content: space-around;">
- 
+     {% if demoleftright =='Insert' %}
     <div class="Insert" >Insert your content to be shown here</div>
+      {% endif %}
+    {% if demoleftright =='logo' %}
     <div class="logo" >logo</div>
+    {% endif %}
     <div class="right-content">right content</div> 
     </div>
   </div>
