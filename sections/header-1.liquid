@@ -9,6 +9,9 @@
           <a class="linktext" href="">{{ block.settings.catagary_text }}</a>
           {% endfor %}
       </div>
+      <div>
+        <img src="{{ section.settings.logo-2 | img_url }}"/>
+      </div>
     </div>
   </div>
   
@@ -34,6 +37,11 @@
       "type": "image_picker",
       "id": "logo",
       "label": "bannaer-image-1"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo-2",
+      "label": "logo-2"
     }
     ],
         "blocks": [
