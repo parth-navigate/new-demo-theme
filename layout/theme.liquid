@@ -40,7 +40,8 @@
   <main role="main">
     {{ content_for_layout }}
   </main> -->
-  {% if  ='header' %}
+  {% if template ='header' %}
+    {%include 'header' %}
   {% section 'header'%}
     {% else %}
     {% section 'header'%}
