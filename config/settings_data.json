@@ -48,6 +48,38 @@
       },
       "header-1": {
         "type": "header-1",
+        "blocks": {
+          "610a2028-3e23-4044-9fcc-2749959b687f": {
+            "type": "text",
+            "settings": {
+              "catagary_text": "About us"
+            }
+          },
+          "1d3a5fd3-7b1f-43f4-a41c-106c0a98336e": {
+            "type": "text",
+            "settings": {
+              "catagary_text": "Contect Us"
+            }
+          },
+          "dd6b6757-0a89-4027-bed3-1883037fdf87": {
+            "type": "text",
+            "settings": {
+              "catagary_text": "Blog"
+            }
+          },
+          "23933616-09d4-42b5-9cb5-6d6cf261db7b": {
+            "type": "text",
+            "settings": {
+              "catagary_text": "More"
+            }
+          }
+        },
+        "block_order": [
+          "610a2028-3e23-4044-9fcc-2749959b687f",
+          "1d3a5fd3-7b1f-43f4-a41c-106c0a98336e",
+          "dd6b6757-0a89-4027-bed3-1883037fdf87",
+          "23933616-09d4-42b5-9cb5-6d6cf261db7b"
+        ],
         "settings": {
           "logo": "shopify:\/\/shop_images\/Logo-Navigate.png"
         }
