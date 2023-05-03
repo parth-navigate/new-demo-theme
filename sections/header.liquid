@@ -37,12 +37,12 @@ hi{{section.settings.demoleftright  }}
       {% else %}
        its wrong
       {% endif %}
-    {% if demoleftright == 'logo' %}
+    {% if section.settings.demoleftright == 'right' %}
     <div class="logo" >logo</div>
       {% else %}
       demoleftright
     {% endif %}
-    {% if demoleftright =='demoleftright' %}
+    {% if section.settings.demoleftright =='center' %}
     <div class="right-content">right content</div> 
       {% else %}
       demoleftright wrong
