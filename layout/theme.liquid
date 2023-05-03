@@ -40,12 +40,12 @@
   <main role="main">
     {{ content_for_layout }}
   </main> -->
-  {% if ='header' %}
+  {% if section.settings.demoleftright ='header' %}
   {% section 'header'%}
     {% else %}
     {% section 'header'%}
     {% endif %}
-   {% if ='hesder-1' %} 
+   {% if section.settings.demoleftright ='hesder-1' %} 
   {% section 'header-1'%}
     {% else %}
      {% section 'header-1'%}
