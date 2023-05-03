@@ -32,23 +32,26 @@
 
   <div class="{{ section.settings.demoleftright }}"> 
     <div style="display:flex; justify-content: space-around;">
-     {% if demoleftright == demoleftright %}
-    <div class="Insert {{ section.settings.demoleftright }} " >Insert your content to be shown here</div>
- 
+     {% if demoleftright =='demoleftright' %}
+    <div class="Insert " >Insert your content to be shown here</div>
+      {% else %}
+       its wrong
       {% endif %}
-    {% if demoleftright == demoleftright %}
-    <div class="logo {{ section.settings.demoleftright }}" >logo</div>
-      
+    {% if demoleftright =='demoleftright' %}
+    <div class="logo" >logo</div>
+      {% else %}
+      demoleftright
     {% endif %}
-    {% if demoleftright == demoleftright %}
-    <div class="right-content {{ section.settings.demoleftright }}">right content</div> 
-    
+    {% if demoleftright =='demoleftright' %}
+    <div class="right-content">right content</div> 
+      {% else %}
+      demoleftright wrong
     {% endif %}
     </div>
  </div> 
 <style>
   .Insert{
-     order:1;
+     order:2;
     }
     .logo{
       order:1;
