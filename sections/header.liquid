@@ -32,22 +32,20 @@
 
   <div class="{{ section.settings.demoleftright }}"> 
     <div style="display:flex; justify-content: space-around;">
-      {% assign num1= 20 %}
-      {% assign num2= 20 %}
-     {% if num1 == num2 %}
+     {% if demoleftright =='demoleftright' %}
     <div class="Insert " >Insert your content to be shown here</div>
-   
+      {% else %}
+       its wrong
       {% endif %}
-      {% assign num1= 20 %}
-      {% assign num2 = 20 %}
-    {% if num1 == num2 %}
+    {% if demoleftright =='demoleftright' %}
     <div class="logo" >logo</div>
-   
+      {% else %}
+      demoleftright
     {% endif %}
-    {% assign num1= 20 %}
-      {% assign num2= 20 %}
-    {% if num1 == num2 %}
+    {% if demoleftright =='demoleftright' %}
     <div class="right-content">right content</div> 
+      {% else %}
+      demoleftright wrong
     {% endif %}
     </div>
  </div> 
