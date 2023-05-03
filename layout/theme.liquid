@@ -41,14 +41,14 @@
     {{ content_for_layout }}
   </main> -->
   {% if ='header' %}
-  {% section 'header' %}
+  {% section 'header'%}
     {% else %}
-    {% section 'header' %}
+    {% section 'header'%}
     {% endif %}
    {% if ='hesder-1' %} 
-  {% section 'header-1' %}
+  {% section 'header-1'%}
     {% else %}
-     {% section 'header-1' %}
+     {% section 'header-1'%}
   {% endif %}
     <script src="{{ 'jquery.min.js' | asset_url }}" > </script>
   <script src="{{ 'owl.carousel.min.js' | asset_url }}" defer="defer"> </script>
