@@ -40,12 +40,12 @@
   <main role="main">
     {{ content_for_layout }}
   </main> -->
-  {% if settings.headermultipuloption = 'header' %}
+  {% if settings.headermultipuloption == 'header' %}
   {% section 'header'%}
     {% else %}
     not header call
     {% endif %}
-   {% if  ='hesder-1' %} 
+   {% if  =='hesder-1' %} 
   {% section 'header-1'%}
     {% else %}
      not  hedaer-1 call
