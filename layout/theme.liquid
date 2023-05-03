@@ -42,13 +42,11 @@
   </main> -->
   {% if settings.headermultipuloption == 'header' %}
   {% section 'header'%}
-    {% else %}
-    not header call
+
     {% endif %}
    {% if settings.headermultipuloption =='header-1' %} 
   {% section 'header-1'%}
-    {% else %}
-     not  hedaer-1 call
+
   {% endif %}
     <script src="{{ 'jquery.min.js' | asset_url }}" > </script>
   <script src="{{ 'owl.carousel.min.js' | asset_url }}" defer="defer"> </script>
