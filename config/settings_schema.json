@@ -16,7 +16,7 @@
       },
       {
         "type": "select",
-        "id": "demoleftright",
+        "id": "headermultipuloption",
         "label": "Products per row",
         "options": [
           {
