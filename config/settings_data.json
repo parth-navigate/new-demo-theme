@@ -81,7 +81,8 @@
           "23933616-09d4-42b5-9cb5-6d6cf261db7b"
         ],
         "settings": {
-          "logo": "shopify:\/\/shop_images\/Logo-Navigate.png"
+          "logo": "shopify:\/\/shop_images\/Logo-Navigate.png",
+          "logo-2": "shopify:\/\/shop_images\/icons8-male-user-21.png"
         }
       }
     },
