@@ -9,7 +9,7 @@
           <a class="linktext" href="">{{ block.settings.catagary_text }}</a>
           {% endfor %}
       </div>
-      <div>
+      <div class="potition-1">
         <div>
           <img src="{{ section.settings.logo-2 | img_url }}"/>
         </div>
@@ -22,6 +22,10 @@
   
 </div>
 <style>
+  .potition-1{
+    display: flex;
+    align-items: center;
+  }
   .linktext{
     color:black;
     text-decoration:none;
