@@ -29,7 +29,10 @@
        
      
     {% else %}
-      <a href="{{ link.url }}">{{ link.title }}</a>
+      <ul>
+        <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+      </ul>
+      
     {% endif %}
 {% endfor %}
   <a href="/cart">cart</a>
