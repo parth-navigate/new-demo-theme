@@ -24,7 +24,7 @@
     {% endif %}
 {% endfor %}
 {%- for childlink in link.links -%}
-<li>
+
 <ul class="header-grandmega-menu inner-grandchild" role="list" tabindex="-1">
               {%- for grandchildlink in childlink.links -%}
                  {% if linklists[child_list_handle].links != blank %}
@@ -36,7 +36,7 @@
                             {% endfor %}]
                      </li>
                    </ul>
-                   </li>
+                   
        
     {% else %}
       <a href="{{ link.url }}">{{ link.title }}</a>
