@@ -37,16 +37,17 @@
     {% endif %}
   {% endif %}
 {% endcomment %}
-  <main role="main">
-    {{ content_for_layout }}
-  </main> 
-  {% if settings.headermultipuloption == 'header' %}
+ {% if settings.headermultipuloption == 'header' %}
   {% section 'header'%}
 
     {% endif %}
    {% if settings.headermultipuloption =='header-1' %} 
   {% section 'header-1'%}
   {% endif %}
+ 
+  <main role="main">
+    {{ content_for_layout }}
+  </main> 
     <script src="{{ 'jquery.min.js' | asset_url }}" > </script>
   <script src="{{ 'owl.carousel.min.js' | asset_url }}" defer="defer"> </script>
   {{ 'owl.theme.default.min.css ' | asset_url |stylesheet_tag }}
