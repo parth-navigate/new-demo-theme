@@ -12,10 +12,11 @@
   {{ 'application.js' | asset_url | script_tag }}
 </head>
 <body style="margin:0;">
+      
+  <ul>
   {% for link in linklists.main-menu.links %}
     {% assign child_list_handle = link.title | handleize %}
     {% if linklists[child_list_handle].links != blank %}
-      <ul>
         <li>
           <a href="{{ link.url }}">{{ link.title }}</a>
            [{% for childlink in linklists[child_list_handle].links %}
@@ -25,16 +26,17 @@
         
       {% endfor %}]
         </li>
-      </ul>
+      
        
      
     {% else %}
-      <ul>
+    
         <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-      </ul>
+      
       
     {% endif %}
 {% endfor %}
+  </ul>
   <a href="/cart">cart</a>
 
   {% if shop.customer_accounts_enabled %}
