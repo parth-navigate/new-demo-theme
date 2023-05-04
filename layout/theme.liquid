@@ -33,9 +33,9 @@
               {%- for grandchildlink in childlink.links -%}
                 <li class="menu-inn">
                    <a href="{{ link.url }}">{{ link.title }}</a>
-                  <li>
+                  <ul>
                     <li><a href="{{ childlink.url }}">{{ childlink.title | escape }}</a></li>
-                  </li>
+                  </ul>
                 </li>
               {%- endfor -%}
             </ul>
