@@ -25,15 +25,14 @@
              </ul>
           {% endfor %}
         </li>
-        <ul class="header-grandmega-menu inner-grandchild" role="list" tabindex="-1">
-                                              {%- for grandchildlink in childlink.links -%}
+        {%- for grandchildlink in childlink.links -%}
                                                 <li class="menu-inn">
                                                   <a href="{{ grandchildlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
                                                     {{ grandchildlink.title | escape }}
                                                   </a>
                                                 </li>
                                               {%- endfor -%}
-                                            </ul>
+                                            
       
        
      
