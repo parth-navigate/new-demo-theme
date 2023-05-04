@@ -31,12 +31,14 @@
 {% if childlink.links != blank %}<span class="header-arrow"><i class="fa fa-angle-double-down" aria-hidden="true"></i></span>{% endif %}
 <ul class="header-grandmega-menu inner-grandchild" role="list" tabindex="-1">
               {%- for grandchildlink in childlink.links -%}
+                 {% if linklists[child_list_handle].links != blank %}
                 <li class="menu-inn">
                    <a href="{{ link.url }}">{{ link.title }}</a>
                   <ul>
                     <li><a href="{{ childlink.url }}">{{ childlink.title | escape }}</a></li>
                   </ul>
                 </li>
+                {% endif %}
               {%- endfor -%}
             </ul>
 </li>
