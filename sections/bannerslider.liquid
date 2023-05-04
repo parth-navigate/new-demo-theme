@@ -1,8 +1,26 @@
+
+<div class="banner-slider owl-carousel owl-theme">
+<div>
+<img class="banner-image" src="{{ section.settings.bannerimages | image_url}}"/>
+</div>
+<div>
+<img class="banner-image" src="{{ section.settings.bannerimages | image_url}}"/>
+</div>
+</div>
+<style>
+  .banner-image{
+    width:100%;
+  }
+</style>
 {% schema %}
   {
     "name": "banner-slider",
     "settings": [
-      
+          {
+      "type": "image_picker",
+      "id": "bannerimages",
+      "label": "bannaer-image-1"
+    }
     ]
   }
 {% endschema %}
