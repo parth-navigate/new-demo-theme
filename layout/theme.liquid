@@ -13,7 +13,9 @@
 </head>
 <body style="margin:0;">
       
-  <ul>
+  <ul style="    display: flex;
+    justify-content: space-around;
+    align-items: center;">
   {% for link in linklists.main-menu.links %}
     {% assign child_list_handle = link.title | handleize %}
     {% if linklists[child_list_handle].links != blank %}
