@@ -45,16 +45,17 @@
 {% endfor %}
   </ul> {% endcomment %}
   <a href="/cart">cart</a>
-
+{% comment %}
  {% if shop.customer_accounts_enabled %}
-  {% comment %}  {% if customer %}
+    {% if customer %}
       <a href="/account">account</a>
       {{ 'log out'  | customer_logout_link }}
     {% else %}
       {{ 'log in ' | customer_login_link }}
       {{ 'register' | customer_register_link }}
-    {% endif %}{% endcomment %}
+    {% endif %}
   {% endif %}
+  {% endcomment %}
  {% if settings.headermultipuloption == 'header' %}
   {% section 'header'%}
 
