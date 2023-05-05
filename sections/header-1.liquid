@@ -1,8 +1,9 @@
 <div class="main">
   <div class="parant">
     <div class="section1">
-      <div class="">
-        <img class="closeicon" src="{{ section.settings.mobilemenuicon | image_url }} "/>
+      <div class="closeicon">
+        <img src="{{ section.settings.closeicon | img_url }}"/>
+        <img class="" src="{{ section.settings.mobilemenuicon | image_url }} "/>
       </div>
       <div>
         <img src="{{ section.settings.logo | img_url }}"/>
@@ -13,7 +14,7 @@
           {% endfor %}
       </div> -->
       <div class="mobilestructure">
-        <img src="{{ section.settings.closeicon | img_url }}"/>
+        
           <ul>
   {% for link in linklists.main-menu.links %}
     {% assign child_list_handle = link.title | handleize %}
