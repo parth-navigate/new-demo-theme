@@ -18,14 +18,14 @@
           <a class="linktext" href="{{ link.url }}">{{ link.title }}</a>
           <ul class="grandclidehideshow">
            {% for childlink in linklists[child_list_handle].links %}
-               <li class="" ><a class="linktext" href="{{ childlink.url }}">{{ childlink.title | escape }}</a></li>
+               <li class="" ><a class="linktext-2" href="{{ childlink.url }}">{{ childlink.title | escape }}</a></li>
             
           {% endfor %}
          </ul>
         </li>
         {%- for grandchildlink in childlink.links -%}
           <li class="list-style" >
-            <a class="linktext" href="{{ grandchildlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
+            <a class="linktext-2" href="{{ grandchildlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
               {{ grandchildlink.title | escape }}
             </a>
           </li>
@@ -36,7 +36,7 @@
      
     {% else %}
     
-        <li class="list-style"><a class="linktext" href="{{ link.url }}">{{ link.title }}</a></li>
+        <li class="list-style"><a class="linktext-2" href="{{ link.url }}">{{ link.title }}</a></li>
       
       
     {% endif %}
@@ -87,11 +87,7 @@
     align-items: center;
     padding: 15px 20px;
   }
-  .linktext{
-    text-decoration: none;
-    color: white;
-    padding-right: 45px;
-  }
+  
   .icons{
     padding-right:10px;
   }
@@ -101,6 +97,9 @@
    ul {
   list-style-type: none;
 }
+  .linktext-2{
+    
+  }
 </style>
 {% schema %}
   {
