@@ -13,6 +13,7 @@
           {% endfor %}
       </div> -->
       <div class="mobilestructure">
+        <img src="{{ section.settings.closeicon | img_url }}"/>
           <ul>
   {% for link in linklists.main-menu.links %}
     {% assign child_list_handle = link.title | handleize %}
@@ -152,6 +153,11 @@
       "type": "image_picker",
       "id": "mobilemenuicon",
       "label": "mobilemenuicon-1"
+    },
+      {
+      "type": "image_picker",
+      "id": "closeicon",
+      "label": "closeicon-1"
     }
     ],
         "blocks": [
