@@ -13,7 +13,7 @@
 </head>
 <body style="margin:0;">
       
-<comment>  <ul>
+ <ul>
   {% for link in linklists.main-menu.links %}
     {% assign child_list_handle = link.title | handleize %}
     {% if linklists[child_list_handle].links != blank %}
@@ -43,7 +43,7 @@
       
     {% endif %}
 {% endfor %}
-  </ul></comment>
+  </ul>
   <a href="/cart">cart</a>
 
   {% if shop.customer_accounts_enabled %}
