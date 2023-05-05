@@ -83,7 +83,8 @@
           "logo": "shopify:\/\/shop_images\/Rectangle_18.png",
           "signup": "Sign-up",
           "logo-2": "shopify:\/\/shop_images\/icons8-male-user-21.png",
-          "mobilemenuicon": "shopify:\/\/shop_images\/icons8-line-width-22.png"
+          "mobilemenuicon": "shopify:\/\/shop_images\/icons8-line-width-22.png",
+          "closeicon": "shopify:\/\/shop_images\/icons8-cancel-20.png"
         }
       },
       "bannerslider": {
