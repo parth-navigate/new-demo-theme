@@ -13,9 +13,7 @@
 </head>
 <body style="margin:0;">
       
-  <ul style="    display: flex;
-    justify-content: space-around;
-    align-items: center;">
+  <ul>
   {% for link in linklists.main-menu.links %}
     {% assign child_list_handle = link.title | handleize %}
     {% if linklists[child_list_handle].links != blank %}
@@ -82,5 +80,8 @@
   }
   .list-style{
     list-style-type: none;
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top;
   }
 </style>
