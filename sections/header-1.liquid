@@ -12,7 +12,7 @@
           <a class="linktext" href="">{{ block.settings.catagary_text }}</a>
           {% endfor %}
       </div> -->
-      <div>
+      <div class="mobilestructure">
           <ul>
   {% for link in linklists.main-menu.links %}
     {% assign child_list_handle = link.title | handleize %}
@@ -113,6 +113,16 @@
 /* For mobile phone: */
   .mobilemenuicon{
   display:block;
+  }
+  .mobilestructure{
+    left: -10px;
+    position: fixed;
+    height: 100%;
+    z-index: 17;
+    background: #ffffffba;
+    width: 100%;
+    top: 0px;
+    }
   }
 }
 </style>
