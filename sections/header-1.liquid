@@ -18,7 +18,7 @@
           <a class="linktext" href="{{ link.url }}">{{ link.title }}</a>
          <ul class="grandclidehideshow">
            {% for childlink in linklists[child_list_handle].links %}
-               <li class="linktext" ><a class="linktext" href="{{ childlink.url }}">{{ childlink.title | escape }}</a></li>
+               <li class="linktext" ><a class="linktext-2" href="{{ childlink.url }}">{{ childlink.title | escape }}</a></li>
             
           {% endfor %}
          </ul>
@@ -97,6 +97,10 @@
   ul {
   list-style-type: none;
 }
+  .linktext-2{
+    color:white;
+    text-decoration: none;
+  }
 </style>
 {% schema %}
   {
