@@ -16,6 +16,7 @@
             {% if linklists[child_list_handle].links != blank %}
               <li class="list-style">
               <a class="linktext" href="{{ link.url }}">{{ link.title }}</a>
+              <img class="addicon" src="{{ section.settings.addicon | image_url }}"/>
               <ul class="grandclidehideshow">
             {% for childlink in linklists[child_list_handle].links %}
               <li class="" ><a class="linktext-2" href="{{ childlink.url }}">{{ childlink.title | escape }}</a></li>
@@ -143,6 +144,11 @@
       "type": "image_picker",
       "id": "closeicon",
       "label": "closeicon-1"
+    },
+       {
+      "type": "image_picker",
+      "id": "addicon",
+      "label": "addicon-1"
     }
 
     ],
