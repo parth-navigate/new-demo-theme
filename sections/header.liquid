@@ -9,7 +9,7 @@
         <img src="{{ section.settings.logo | image_url }} "/>
         
         <div class="mobilemanuheader">
-          <img class="onlyheader" src="{{ section.settings.closeicon | img_url }}"/>
+          <img class="headercloseicon" src="{{ section.settings.closeicon | img_url }}"/>
           <ul class="all-option">
             {% for link in linklists.main-menu.links %}
             {% assign child_list_handle = link.title | handleize %}
@@ -56,7 +56,7 @@
 </div>
 
 <style>
-  .onlyheader{
+  .onlyheader .headercloseicon{
     display:none;
   }
  
@@ -151,11 +151,15 @@
 .grandclidehideshow{
   display:contents;        
   }
-        .active .grandclidehideshow {
-       display: none;
-          }
-}
+  .active .grandclidehideshow {
+ display: none;
+    }
+  .headercloseicon{
+    float:right;
+    display:block;
   }
+}
+  
 </style>
 {% schema %}
   {
