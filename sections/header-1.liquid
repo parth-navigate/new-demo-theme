@@ -61,13 +61,8 @@
  .closicon{
    margin:0;
  }
-   .list-style:hover .grandclidehideshow {
-  display: block;
-}
+ 
   
-  .closicon{
-    display: none;
-  }
   .linktext{
     text-decoration: none;
     padding:0;
@@ -114,7 +109,16 @@
   .mobilemenuicon{
     display:none;
   }
- 
+ @media only screen and (min-width: 1024px){
+/* For mobile phone: */
+     .list-style:hover .grandclidehideshow {
+  display: block;
+}
+   .closicon{
+    display: none;
+  }
+ }
+  
 @media only screen and (max-width: 500px){
 /* For mobile phone: */
   .mobil;emenuicon{
