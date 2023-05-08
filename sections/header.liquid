@@ -109,6 +109,14 @@
   .mobilemenuicon{
     display:none;
   }
+   @media only screen and (min-width: 1024px){
+/* For mobile phone: */
+ .list-style:hover .grandclidehideshow {
+  display: block;
+}
+   }
+
+  
   @media only screen and (max-width: 500px){
 /* For mobile phone: */
     .onlyheader{
@@ -141,6 +149,10 @@
    .list-style:active .grandclidehideshow {
     display: contents;
     }
+        .active .grandclidehideshow {
+       display: none;
+          }
+}
   }
 </style>
 {% schema %}
