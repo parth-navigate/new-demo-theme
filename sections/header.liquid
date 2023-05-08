@@ -4,7 +4,7 @@
       <div class="header-icons">
          <img class="onlyheader" src="{{ section.settings.mobilemenuicon | image_url }} "/>
           
-        <img src="{{ section.settings.logo | image_url }} "/>
+        <img class="logo" src="{{ section.settings.logo | image_url }} "/>
         
         <div class="mobilemanuheader">
           <img class="headercloseicon" src="{{ section.settings.closeicon | img_url }}"/>
@@ -158,6 +158,9 @@
     display:block;
     padding-right:22px;
     padding-top:15px;
+  }
+  .logo{
+    width:100px;
   }
 }
   
