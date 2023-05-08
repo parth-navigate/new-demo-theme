@@ -10,7 +10,7 @@
         
         <div class="mobilemanuheader">
           <img class="onlyheader" src="{{ section.settings.closeicon | img_url }}"/>
-          <ul>
+          <ul class="all-option">
             {% for link in linklists.main-menu.links %}
             {% assign child_list_handle = link.title | handleize %}
             {% if linklists[child_list_handle].links != blank %}
@@ -133,6 +133,9 @@
   }
   .linktext{
     padding:0;
+  }
+  .all-option{
+    padding-left:25px;
   }
   }
 </style>
