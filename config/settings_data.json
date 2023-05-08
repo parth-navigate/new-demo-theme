@@ -5,24 +5,6 @@
     "sections": {
       "header": {
         "type": "header",
-        "blocks": {
-          "1413a273-ac99-47b2-8d61-de59b3f28b3b": {
-            "type": "text",
-            "settings": {
-              "catagary_text": "Collections"
-            }
-          },
-          "f1aa8a82-5249-46f4-ba40-7c1ae4028ce4": {
-            "type": "text",
-            "settings": {
-              "catagary_text": "blog"
-            }
-          }
-        },
-        "block_order": [
-          "1413a273-ac99-47b2-8d61-de59b3f28b3b",
-          "f1aa8a82-5249-46f4-ba40-7c1ae4028ce4"
-        ],
         "settings": {
           "logo": "shopify:\/\/shop_images\/Logo-Navigate.png",
           "icons": "shopify:\/\/shop_images\/icons8-search-15.png",
