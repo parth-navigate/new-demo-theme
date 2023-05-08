@@ -9,7 +9,7 @@
         <img src="{{ section.settings.logo | image_url }} "/>
         
         <div>
-          <img class="closicon" src="{{ section.settings.closeicon | img_url }}"/>
+          <img class="onlyheader" src="{{ section.settings.closeicon | img_url }}"/>
           <ul>
             {% for link in linklists.main-menu.links %}
             {% assign child_list_handle = link.title | handleize %}
