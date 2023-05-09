@@ -32,6 +32,12 @@
         "settings": {
           "bannerimages": "shopify:\/\/shop_images\/1.top-banner-nft_2200x_4228906a-a098-410d-a4ec-58575b727c40.png"
         }
+      },
+      "footer-1": {
+        "type": "footer-1",
+        "settings": {
+          "footer1logo": "shopify:\/\/shop_images\/06_Friant_Wordmark_Inverse_1__1.png"
+        }
       }
     },
     "content_for_index": [
