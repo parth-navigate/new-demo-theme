@@ -1,13 +1,17 @@
 <div class="main">
   <div class="parant">
-    
+    <img class="footer1logo" src="{{ section.settings.footer1logo | image_url }} "/>
   </div>
 </div>
 {% schema %}
   {
     "name": "Section name",
     "settings": [
-      
+        {
+      "type": "image_picker",
+      "id": "footer1logo",
+      "label": "footer-1 logo"
+    }
     ]
   }
 {% endschema %}
