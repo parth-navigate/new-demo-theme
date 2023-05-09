@@ -3,7 +3,7 @@
     <img class="footer1logo" src="{{ section.settings.footer1logo | image_url }} "/>
   </div>
 </div>
-
+{{ 'footer-1-css.css' | asset_url |stylesheet_tag }}
 {% schema %}
   {
     "name": "Section name",
@@ -16,7 +16,6 @@
     ]
   }
 {% endschema %}
-<script src="{{ 'footer-1-css.css' | asset_url }}" ></script>
 {% stylesheet %}
   
 {% endstylesheet %}
