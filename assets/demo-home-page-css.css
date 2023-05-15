@@ -151,7 +151,7 @@ body{
 }
 .big-bend-national{
 
-	background-image: url('images/Image (1).png');
+	background-image: url("Image (1).png");
 	height:577px;
 	background-size: 100%;
 	 background-repeat: no-repeat;
@@ -213,7 +213,7 @@ body{
     font-size: 38px;
 }
 .walking-in-activities{
-	background-image: url('images/Group6.png');
+	background-image: url("Group6.png");
 	height: 818px;
 	background-size: 100%;
  	background-repeat: no-repeat;
