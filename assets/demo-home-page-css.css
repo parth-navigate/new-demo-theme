@@ -3,7 +3,7 @@ body{
 	margin: 0;
 }
 .headertextlink{
-	background-image: url('images/Group1(1).png');
+	background-image: <img  src="{{ 'Group1(1).png' | asset_url }}" />
     height:740px;
     background-size: 100%;				
     background-repeat: no-repeat;
