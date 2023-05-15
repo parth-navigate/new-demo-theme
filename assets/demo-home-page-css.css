@@ -356,6 +356,9 @@ body{
 }
 @media  screen and (max-width:830px){
 /* for mobile phone */
+    .recreational-activity{
+      width:90%;
+    }
     .big-bend-national{
       background-size:cover;
     }
