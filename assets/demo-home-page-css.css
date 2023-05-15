@@ -1,0 +1,542 @@
+
+body{
+	margin: 0;
+}
+.headertextlink{
+	background-image: url('images/Group1(1).png');
+    height:740px;
+    background-size: 100%;				
+    background-repeat: no-repeat;
+}
+.headermanu-text{
+
+	color: white;
+	text-decoration: none;
+	padding-left: 20px;
+	font-size: 21px;
+}
+.headermenu-textstyle{
+	padding-top: 20px;
+	padding-left: 4%;
+}
+.hikinglife-img{
+	width: 40px;
+    vertical-align: middle;
+}
+.hikinglife-text{
+	color:#12899f;
+	padding-left: 5px;
+}
+.Discover-text-bold{
+	width: 20%;
+    margin: 0;
+    font-size: 25px;
+}
+.Discover-text-capital{
+	font-size: 13px;
+	width: 10%;
+}
+.lorem-text-small{
+	margin: 0;
+	font-size: 21px;
+	width: 19%;
+}
+.Discover-Your-Life{
+	color: white;
+	margin-left: 6%;
+	margin-top: 3%;
+}
+.crossicon{
+	vertical-align: bottom;
+}
+.CLASSES{
+	border-bottom: 5px solid #0fa2ba;
+	padding-bottom: 10px;
+	font-weight: 700;
+
+}
+.haiking-and-camping{
+	margin-left: 6%;
+	margin-top: 35px;
+	font-size: 33px;
+}
+.hiking-text-img-box{
+	display: flex;
+	align-items: center;
+    justify-content: space-between;	
+}
+.hikig-subbox{
+	width: 33.33%;
+	text-align: center;
+}
+.hiking-loren-subtext{
+    width: 63%;
+    margin: auto;
+    font-size: 22px;
+}
+.hiking-activities-img{
+	width: 137px;
+	height: 137px;
+}
+.rock-climbing{
+	padding-left:6%;
+	margin-top: 6%;
+	display: flex;
+	align-items: center;
+	padding-right: 6%;
+	margin-bottom: 5%;
+
+}
+.rock{
+	margin: 0;
+	font-size: 28px;
+	font-weight: 600;
+	letter-spacing: 5px;
+}
+.classes-event{
+    font-size: 33px;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+.hatha{
+	width: 59%;
+    border-bottom: 2px solid lightblue;
+    padding-bottom: 20px;
+    color: #00000094;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+.modules{
+	margin: 0;
+	color:  #00000094;
+	letter-spacing: 1px;
+	font-size: 25px;
+}
+.weekends-date-time{
+	margin: 0;
+	letter-spacing: 1px;
+	font-size: 25px;
+}
+.date-time-start{
+	display: inline-block;
+	padding-right: 20px;
+	margin-top: 14px;
+	font-size: 25px;
+}
+.nature{
+	width: 300px;
+    border-radius: 50%;
+    height: 300px;
+}
+.walking-in-nature-2{
+	width: 50%;
+
+}
+.walking-in-nature{
+	width: 50%;
+	margin: auto;
+	text-align: right;
+}
+.recreational-activity{
+    font-size: 33px;
+    width: 51%;
+    letter-spacing: 2px;
+    color: red;
+    font-style: italic;
+    font-weight: 600;
+    margin: auto;
+    margin-top: 9%;
+    text-align: start;
+    margin-left: 15%;
+}
+.big-bend-national{
+
+	background-image: url('images/Image (1).png');
+	height:577px;
+	background-size: 100%;
+	 background-repeat: no-repeat;
+}
+.big-bang-all-text{
+	margin-left: 6%;
+	padding-top: 4%;
+}
+.big-bend-national-text{
+      font-size: 40px;
+    font-weight: 600;
+    font-style: italic;
+    width: 50%;
+    word-spacing: 7px;
+    color: white;
+}
+.this-hike-text{
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    width: 22%;
+}
+.lorem-text{
+	font-size: 18px;
+    color: white;
+    font-style: italic;
+}
+.see-more-button{
+    padding: 3px 15px 3px 15px;
+    background: transparent;
+    border: 1px solid #149bd4;
+}
+.bag-icon{
+	width: 137px;
+	height: 137px;
+	display: inline-block;
+}
+.recover-hike-text{
+	display: inline-block;
+}
+.dolor-sit-text{
+	margin: 0;
+	font-size: 21px;
+	padding-bottom: 5px;
+	padding-top: 10px;
+}
+.recover-form{
+	margin-bottom: 20px;
+}
+.recover-form-hike{
+	display: flex;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.how-to-recover{
+    margin-left: 6%;
+    width: 40%;
+    word-spacing: 2px;
+    font-size: 38px;
+}
+.walking-in-activities{
+	background-image: url('images/Group6.png');
+	height: 818px;
+	background-size: 100%;
+ 	background-repeat: no-repeat;
+ 	position: relative;
+ 	margin-bottom: 5%;
+}
+.dolor-sit-amet{
+	color: white;
+    position: absolute;
+    top: 12%;
+    left: 6%;
+}
+.walking-text{
+	font-size: 46px;
+    font-weight: 600;
+    font-style: italic;
+    width: 45%;
+    word-spacing: 5px;
+    color: #f95e00;
+}
+.consectetur-adip{
+    font-size: 25px;
+    width: 34%;
+    word-spacing: 2px;
+}
+.Mountain-Loop-img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+.Mountain-Loop-text{
+	margin: 0;
+    font-size: 33px;
+    text-align: center;
+}
+.Mountain-Loop-text-2{
+    margin: auto;
+    font-size: 20px;
+    color: #00000094;
+    width: 50%;
+    padding-top: 5px;
+    border-bottom: 1px solid #00000094;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.location-text{
+	 margin: 0;
+    padding-top: 5px;
+    font-size: 25px;
+    text-align: center;
+
+}
+.miles-text{
+	font-size: 20px;
+    color: #00000094;
+    padding-left: 5px;
+}
+.Mountain-Loop-option{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Mountain-Loop-option-style{
+	width: 33.33%;
+}
+.dots{
+	margin-left: 15%;
+}
+.Place-autumn{
+	    padding-left: 6%;
+    font-size: 40px;
+    font-weight: 600;
+    width: 34%;
+    letter-spacing: 3px;
+}
+.the-asanus-purify{
+	    text-align: center;
+    font-size: 33px;
+    font-weight: 600;
+    font-style: italic;
+    width: 43%;
+    margin: auto;
+    padding-top: 10.5%;
+    color: white;
+    word-spacing: 8px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 6%;
+    margin-right:6%;
+    padding-top: 3%;
+    padding-bottom: 2%;										
+}
+.team-text{
+	font-size: 17px;
+	color: #00000094;
+}
+.modules-2{
+	color: white;
+	margin: o;
+	letter-spacing: 1px;
+}
+.about-text{
+	font-size: 18px;
+}
+.footer-option{
+	width: 33.33%;
+}
+.rock-climbing-2{
+	background: black; margin-top: 7%; padding-top: 5%; margin-bottom: 0;  padding-bottom: 5%;
+}
+.walking-in-nature-2-other-option{
+
+	text-align:end; color: white;
+}
+.hatha-2{
+	margin-left: 41%; text-align:start; color: white;
+}
+.big-bend-national-2{
+	text-align: center;
+}
+.hikinglife-img-2{
+	display: block;margin: auto;width: 60px;padding-top: 12px
+}
+.see-more-button-2{
+	margin-top: 15px; color: white;
+}
+.recreational-activity-copy-2{
+	padding-left:24%;
+}
+.recreational-activity-2{
+	padding-left: 24%; color: #0cc4df;
+}
+.walking-in-nature-other-copy{
+	width: 50%;
+}
+.recreational-activity{
+	width: 100%; text-align: start; color:#0cc4df;
+}
+@media  screen and (max-width:830px){
+/* for mobile phone */
+	.recreational-activity-copy-2{
+		padding-left: 0;
+		margin-left: 14px;
+	}
+	.recreational-activity-2{
+		padding-left: 0;
+		margin-left: 14px;
+	}
+	.headertextlink{
+		height: 474px;
+	}
+	.haiking-and-camping{
+		font-size: 28px;
+	}
+	.walking-text{
+		font-size: 35px;
+		width: 53%;
+	}
+	.walking-in-activities{
+		height: 480px;
+		background-size: 100%;
+	}
+	.dolor-sit-amet{
+		top: 0;
+		left: 9%;
+	}
+	.the-asanus-purify{
+		width: 55%;
+		padding-top: 20.5%;
+	}
+	.hatha{
+		width: 83%;
+	}
+	.hatha-2{
+		margin-left:16%;
+	}
+	.Place-autumn{
+		font-size: 30px;
+		width: 41%;
+	}
+	.lorem-text-small{
+		width: 33%;
+	}
+	.hiking-loren-subtext{
+		width: 85%;
+	}
+
+
+}
+
+
+
+@media  screen and (max-width:500px){
+/* for mobile phone */
+
+.hiking-text-img-box{
+		display: block;
+	}
+.hikig-subbox{
+	width: 100%;
+}
+.rock-climbing{
+	display: block;
+	margin-top: 12%;
+}
+.walking-in-nature{
+	text-align: center;
+	width: 100%;
+	margin-top: 15px;
+}
+.nature{
+	width: 200px;
+	height: 200px;
+}
+.recreational-activity{
+	width: 100%;
+}
+.walking-in-nature-2{
+	margin-top: 15%;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.hatha{
+	width: 98%;
+}
+.walking-in-activities{
+	height: 220px;
+	margin-top: 10px;
+}
+.the-asanus-purify{
+	width: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 25px;
+}
+.recover-form-hike{
+	display: block;
+	text-align: center;
+}
+.recreational-activity-copy-2{
+	padding: 0;
+	margin: 0;
+}
+.recreational-activity{
+	text-align: center;
+}
+.recreational-activity-2{
+	padding:0;
+	margin: 0;
+}
+.Mountain-Loop-option{
+	display: block;
+}
+.Mountain-Loop-option-style{
+	width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.hatha-2{
+	margin: 0;
+}
+.Place-autumn{
+	font-size: 22px;
+	width: 64%;
+}
+.this-hike-text{
+	font-size: 20px;
+	width: 95%;
+}
+.big-bend-national-text{
+	font-size: 22px;
+	width: 88%;
+}
+.haiking-and-camping{
+	font-size: 24px;
+}
+.how-to-recover{
+	font-size: 22px;
+	width: 81%;
+	margin-top: 10%;
+}
+.walking-text{
+	width: 88%;
+	font-size: 22px;
+}
+.consectetur-adip{
+	font-size: 19px;
+	width:66%;
+}
+.headertextlink{
+	height: 217px;
+}
+.footer{
+	display: block;
+}
+.walking-in-nature-other-copy{
+	width: 100%;
+}
+.recreational-activity{
+	text-align: center;
+	margin: 0;
+	margin-top: 15px;
+	font-size: 26px;
+}
+.classes-event{
+	font-size: 20px;
+}
+.Mountain-Loop-text{
+	font-size: 30px;
+}
+.Mountain-Loop-text-2{
+	font-size: 18ox;
+}
+.location-text{
+	font-size: 23px;
+}
+.big-bend-national{
+	background-size: cover;
+}
+}
+
