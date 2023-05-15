@@ -352,7 +352,7 @@ body{
 	width: 50%;
 }
 .recreational-activity{
-	width: 100%; text-align: start; color:#0cc4df;
+	width: 60%; text-align: center; color:#0cc4df;
 }
 @media  screen and (max-width:830px){
 /* for mobile phone */
