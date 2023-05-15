@@ -21,13 +21,13 @@
               {{ item.variant.title }}
               <a href="/cart/change?line={{ forloop.index }}&amp;quantity=0">remove</a>
             </td>
-            <td>{{ item.price | money }}</td>
+            <td><div class="pn-price-item" data-id="{{ item.key }}">{{ item.price | money }}</div></td>
             <td>
               <input type="number" name="updates[]" id="updates_{{ item.key }}" value="{{ item.quantity }}" min="0">
             </td>
             <td>
-              {% if item.original_line_price != item.line_price %}{{ item.original_line_price | money }}{% endif %}
-              {{ item.line_price | money }}
+              {% if item.original_line_price != item.line_price %}<div class="pn-total-line-item" data-id="{{ item.key }}">{{ item.original_line_price | money }}</div>{% endif %}
+              <div class="pn-total-line-item" data-id="{{ item.key }}">{{ item.line_price | money }}</div>
               {% for discount in item.discounts %}{{ discount.title }}{% endfor %}
             </td>
           </tr>
