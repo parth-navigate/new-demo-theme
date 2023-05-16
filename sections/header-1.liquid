@@ -14,7 +14,7 @@
   {% for link in linklists.main-menu.links %}
     {% assign child_list_handle = link.title | handleize %}
     {% if linklists[child_list_handle].links != blank %}
-        <li class="list-style active">
+        <li class="list-style ">
           <a class="linktext" href="{{ link.url }}">{{ link.title }}</a>
           <img class="addicon" src="{{ section.settings.addicon | image_url }}"/>
          <ul class="grandclidehideshow">
