@@ -7,14 +7,16 @@
     <img class="banner-image" src="{{ section.settings.bannerimages | image_url}}"/>
     </div>
 </div>
-<div class="brand-banner owl-carousel owl-theme">
-  <div>
-    {% for block in section.blocks %}
+ <div>   
+    <div class="brand-banner owl-carousel owl-theme">
       <div>
-        <img class="" src="{{ block.settings.brand-images | image_url  }}"/>
+        {% for block in section.blocks %}
+          <div>
+            <img class="" src="{{ block.settings.brand-images | image_url  }}"/>
+          </div>
+        {%endfor%}
       </div>
-    {%endfor%}
-  </div>
+    </div>
 </div>
 <style>
   .banner-image{
