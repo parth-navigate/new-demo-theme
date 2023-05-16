@@ -21,6 +21,7 @@ $(document).ready(function(){
   	items:1,
   	loop:false,
   	nav:false,
+    padding: 0 10px 0 10px;
     dot:true,
   	responsiveClass:true,
     responsive:{
