@@ -72,8 +72,14 @@
   {{ 'owl.theme.default.min.css ' | asset_url |stylesheet_tag }}
   {{ 'owl.carousel.min.css' | asset_url | stylesheet_tag}}
   <script src="{{ 'homepage-js.js' | asset_url }}" ></script>
-  
-{% section 'footer-1' %}
+   {% if settings.headermultipuloption == 'footer-1' %}
+  {% section 'footer-1'%}
+
+    {% endif %}
+   {% if settings.headermultipuloption =='footer-2' %} 
+  {% section 'footer-2'%}
+  {% endif %} 
+
 {% render 'preorder-now' %}
   </body>
 </html>
