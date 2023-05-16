@@ -1,7 +1,7 @@
 {
   "current": {
     "headermultipuloption": "header-1",
-    "multipulfooteroption": "footer-option-2",
+    "multipulfooteroption": "footer-1",
     "demoleftright": "right",
     "sections": {
       "header": {
@@ -92,6 +92,11 @@
         "type": "footer-1",
         "settings": {
           "footer1logo": "shopify:\/\/shop_images\/06_Friant_Wordmark_Inverse_1__1.png"
+        }
+      },
+      "footer-option-2": {
+        "type": "footer-option-2",
+        "settings": {
         }
       }
     },
