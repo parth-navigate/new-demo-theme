@@ -22,7 +22,7 @@
          <div class="banner-slider container owl-carousel owl-theme" >
        {%- for block in section.blocks -%}
       <div class="slider">
-        <div>
+        <div class="brand-slider">
         <img class="" src="{{ block.settings.Rectangle444 | image_url  }}">
         </div>
       </div>
@@ -32,6 +32,9 @@
 <style>
   .banner-image{
     width:100%;
+  }
+  .brand-slider{
+    width:33.33%
   }
 </style>
 {% schema %}
