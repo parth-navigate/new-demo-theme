@@ -28,21 +28,6 @@
             "label": "header-1"
           }
         ]
-      },
-      {
-        "type": "select",
-        "id": "footermultipuloption",
-        "label": "footer-option",
-        "options": [
-          {
-            "value": "footer-1",
-            "label": "footer-1"
-          },
-          {
-            "value": "footer-option-2",
-            "label": "footer-2"
-          }
-        ]
       }
     ]
   },
