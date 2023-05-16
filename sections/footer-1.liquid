@@ -2,7 +2,7 @@
   <div class="parant">
     <img class="footer1logo" src="{{ section.settings.footer1logo | image_url }} "/>
     <div>
-           <ul class="">
+           <ul class="footer-option">
   {% for link in linklists.footer.links %}
     {% assign child_list_handle = link.title | handleize %}
     {% if linklists[child_list_handle].links != blank %}
