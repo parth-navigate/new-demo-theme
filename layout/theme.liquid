@@ -72,11 +72,11 @@
   {{ 'owl.theme.default.min.css ' | asset_url |stylesheet_tag }}
   {{ 'owl.carousel.min.css' | asset_url | stylesheet_tag}}
   <script src="{{ 'homepage-js.js' | asset_url }}" ></script>
-   {% if settings.footermultipuloption == 'footer-1' %}
+   {% if settings.multipulfooteroption == 'footer-1' %}
   {% section 'footer-1'%}
 
     {% endif %}
-   {% if settings.footermultipuloption =='footer-2' %} 
+   {% if settings.multipulfooteroption =='footer-2' %} 
   {% section 'footer-option-2'%}
   {% endif %} 
 
