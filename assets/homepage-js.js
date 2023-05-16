@@ -16,12 +16,12 @@ $(document).ready(function(){
     }
   });
 });
-
-$(document).ready(function(){
-  $(".brand-images").owlCarousel({
+	$(document).ready(function(){
+  $(".banner-slider").owlCarousel({
   	items:1,
   	loop:true,
   	nav:false,
+    margin:30,
     dot:true,
   	responsiveClass:true,
     responsive:{
@@ -29,7 +29,7 @@ $(document).ready(function(){
         	items:1
         },
         1080:{
-        	items:2
+        	items:3
         }
 
     }
