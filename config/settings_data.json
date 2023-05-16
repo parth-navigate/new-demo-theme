@@ -30,6 +30,45 @@
       },
       "bannerslider": {
         "type": "bannerslider",
+        "blocks": {
+          "75271599-fb9b-487c-bd0b-8187d3f213e5": {
+            "type": "text",
+            "settings": {
+              "brand-images": "shopify:\/\/shop_images\/Rectangle_24.png"
+            }
+          },
+          "25d09d0f-9189-4922-93b8-b77f81ed7d23": {
+            "type": "text",
+            "settings": {
+              "brand-images": "shopify:\/\/shop_images\/Rectangle23.png"
+            }
+          },
+          "33068062-3b50-4864-8751-a3ea45fe7be0": {
+            "type": "text",
+            "settings": {
+              "brand-images": "shopify:\/\/shop_images\/Rectangle25.png"
+            }
+          },
+          "d582f2bb-0487-4a0a-b7ef-819b62be3bc1": {
+            "type": "text",
+            "settings": {
+              "brand-images": "shopify:\/\/shop_images\/Rectangle_26.png"
+            }
+          },
+          "f8df1546-7273-40e3-9a67-d8475652ff35": {
+            "type": "text",
+            "settings": {
+              "brand-images": "shopify:\/\/shop_images\/Bitmap.png"
+            }
+          }
+        },
+        "block_order": [
+          "75271599-fb9b-487c-bd0b-8187d3f213e5",
+          "25d09d0f-9189-4922-93b8-b77f81ed7d23",
+          "33068062-3b50-4864-8751-a3ea45fe7be0",
+          "d582f2bb-0487-4a0a-b7ef-819b62be3bc1",
+          "f8df1546-7273-40e3-9a67-d8475652ff35"
+        ],
         "settings": {
           "bannerimages": "shopify:\/\/shop_images\/1.top-banner-nft_2200x_4228906a-a098-410d-a4ec-58575b727c40.png"
         }
