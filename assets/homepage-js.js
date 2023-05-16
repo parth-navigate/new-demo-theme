@@ -22,6 +22,7 @@ $(document).ready(function(){
   	loop:false,
   	nav:false,
     margin:30,
+    padding-left:10px;
     dot:true,
   	responsiveClass:true,
     responsive:{
