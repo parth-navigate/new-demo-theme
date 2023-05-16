@@ -19,7 +19,7 @@ $(document).ready(function(){
 	$(document).ready(function(){
   $(".banner-slider").owlCarousel({
   	items:1,
-  	loop:true,
+  	loop:false,
   	nav:false,
     margin:30,
     dot:true,
