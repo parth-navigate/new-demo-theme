@@ -45,5 +45,29 @@
         ]
       }
     ]
+  },
+  {
+    "name": "footer",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Body"
+      },
+      {
+        "type": "select",
+        "id": "multipulfooteroption",
+        "label": "footer-option",
+        "options": [
+          {
+            "value": "footer-1",
+            "label": "footer-1"
+          },
+          {
+            "value": "footer-option-2",
+            "label": "footer-2"
+          }
+        ]
+      }
+    ]
   }
 ]
