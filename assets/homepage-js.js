@@ -17,7 +17,7 @@ $(document).ready(function(){
   });
 });
 	$(document).ready(function(){
-  $(".banner-slider").owlCarousel({
+  $(".brand-slider").owlCarousel({
   	items:1,
   	loop:false,
   	nav:false,
