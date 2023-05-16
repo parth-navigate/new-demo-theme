@@ -9,23 +9,23 @@
     {% assign child_list_handle = link.title | handleize %}
     {% if linklists[child_list_handle].links != blank %}
         <li class="footer-friest-child">
-          <a class="" href="{{ link.url }}">{{ link.title }}</a>
+          <a class="mainchilde" href="{{ link.url }}">{{ link.title }}</a>
          <ul class="">
            {% for childlink in linklists[child_list_handle].links %}
-               <li class="" ><a class="" href="{{ childlink.url }}">{{ childlink.title | escape }}</a></li>
+               <li class="mainchilde" ><a class="" href="{{ childlink.url }}">{{ childlink.title | escape }}</a></li>
             
           {% endfor %}
          </ul>
         </li>
         {%- for grandchildlink in childlink.links -%}
-          <li class="" >
-            <a class="" href="{{ grandchildlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
+          <li class="mainchilde" >
+            <a class="mainchilde" href="{{ grandchildlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
               {{ grandchildlink.title | escape }}
             </a>
           </li>
         {%- endfor -%}
     {% else %}
-        <li class="footer-friest-child"><a class="" href="{{ link.url }}">{{ link.title }}</a></li>
+        <li class="footer-friest-child"><a class="mainchilde" href="{{ link.url }}">{{ link.title }}</a></li>
     {% endif %}
 {% endfor %}
   </ul>
