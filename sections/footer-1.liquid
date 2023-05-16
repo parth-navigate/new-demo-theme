@@ -8,7 +8,6 @@
     {% if linklists[child_list_handle].links != blank %}
         <li class=" active">
           <a class="" href="{{ link.url }}">{{ link.title }}</a>
-          <img class="" src="{{ section.settings.addicon | image_url }}"/>
          <ul class="">
            {% for childlink in linklists[child_list_handle].links %}
                <li class="" ><a class="" href="{{ childlink.url }}">{{ childlink.title | escape }}</a></li>
