@@ -9,7 +9,7 @@
     {% assign child_list_handle = link.title | handleize %}
     {% if linklists[child_list_handle].links != blank %}
         <li class="footer-friest-child">
-          <a class="mainchilde-2" href="{{ link.url }}">{{ link.title }}</a>
+          <a class="mainchilde" href="{{ link.url }}">{{ link.title }}</a>
          <ul class="footer-grandchilde">
            {% for childlink in linklists[child_list_handle].links %}
                <li class="" ><a class="mainchilde" href="{{ childlink.url }}">{{ childlink.title | escape }}</a></li>
@@ -36,8 +36,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-  $(".mainchilde-2").click(function(){
-    $(".mainchilde").toggle();
+  $(".mainchilde").click(function(){
+    $(".footer-grandchilde").toggle();
   });
 });
 </script>
