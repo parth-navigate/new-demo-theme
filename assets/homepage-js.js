@@ -27,6 +27,9 @@ $(document).ready(function(){
         767:{
         	items:2
         },
+        820:{
+          items:2
+        }
         1080:{
         	items:4
         }
