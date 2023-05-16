@@ -14,3 +14,7 @@ padding:15px 0 15px 0;
 a{
   text-decoration:none;
 }
+.parant{
+  display:flex;
+  align-items:center;
+}
