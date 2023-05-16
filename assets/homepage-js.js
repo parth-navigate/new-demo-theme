@@ -30,7 +30,7 @@ $(document).ready(function(){
         	items:2
         },
         1080:{
-        	items:4
+        	items:3
         }
 
     }
