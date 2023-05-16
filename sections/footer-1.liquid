@@ -3,7 +3,7 @@
     <img class="footer1logo" src="{{ section.settings.footer1logo | image_url }} "/>
     <div>
            <ul class="dropdwonmobilemenu">
-  {% for link in linklists.footer-menu.links %}
+  {% for link in linklists.footer.links %}
     {% assign child_list_handle = link.title | handleize %}
     {% if linklists[child_list_handle].links != blank %}
         <li class="list-style active">
