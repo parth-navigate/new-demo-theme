@@ -25,7 +25,7 @@ $(document).ready(function(){
   	responsiveClass:true,
     responsive:{
         767:{
-        	items:1
+        	items:2
         },
         1080:{
         	items:4
