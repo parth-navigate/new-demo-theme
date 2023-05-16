@@ -16,7 +16,7 @@
          </ul>
         </li>
         {%- for grandchildlink in childlink.links -%}
-          <li class="" >
+          <li class="footer-friest-child" >
             <a class="" href="{{ grandchildlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
               {{ grandchildlink.title | escape }}
             </a>
