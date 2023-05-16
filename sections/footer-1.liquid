@@ -12,13 +12,13 @@
           <a class="mainchilde" href="{{ link.url }}">{{ link.title }}</a>
          <ul class="">
            {% for childlink in linklists[child_list_handle].links %}
-               <li class="mainchilde" ><a class="" href="{{ childlink.url }}">{{ childlink.title | escape }}</a></li>
+               <li class="" ><a class="mainchilde" href="{{ childlink.url }}">{{ childlink.title | escape }}</a></li>
             
           {% endfor %}
          </ul>
         </li>
         {%- for grandchildlink in childlink.links -%}
-          <li class="mainchilde" >
+          <li class="" >
             <a class="mainchilde" href="{{ grandchildlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
               {{ grandchildlink.title | escape }}
             </a>
