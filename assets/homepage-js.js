@@ -16,3 +16,22 @@ $(document).ready(function(){
     }
   });
 });
+
+$(document).ready(function(){
+  $(".brand-images").owlCarousel({
+  	items:1,
+  	loop:true,
+  	nav:false,
+    dot:true,
+  	responsiveClass:true,
+    responsive:{
+        767:{
+        	items:1
+        },
+        1080:{
+        	items:5
+        }
+
+    }
+  });
+});
