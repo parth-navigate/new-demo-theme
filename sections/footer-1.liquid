@@ -10,7 +10,7 @@
     {% if linklists[child_list_handle].links != blank %}
         <li class="footer-friest-child">
           <a class="mainchilde" href="{{ link.url }}">{{ link.title }}</a>
-         <ul class="">
+         <ul class="footer-grandchilde">
            {% for childlink in linklists[child_list_handle].links %}
                <li class="" ><a class="mainchilde" href="{{ childlink.url }}">{{ childlink.title | escape }}</a></li>
             
@@ -37,7 +37,7 @@
 <script>
 $(document).ready(function(){
   $("mainchilde").click(function(){
-    $("p").toggle();
+    $("footer-grandchilde").toggle();
   });
 });
 </script>
