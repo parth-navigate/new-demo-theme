@@ -9,23 +9,23 @@
     {% assign child_list_handle = link.title | handleize %}
     {% if linklists[child_list_handle].links != blank %}
         <li class="footer-friest-child">
-          <a class="mainchilde" href="">{{ link.title }}</a>
+          <a class="mainchilde" href="{{ link.url }}">{{ link.title }}</a>
          <ul class="footer-grandchilde">
            {% for childlink in linklists[child_list_handle].links %}
-               <li class="" ><a class="mainchilde" href="">{{ childlink.title | escape }}</a></li>
+               <li class="" ><a class="mainchilde" href="{{ childlink.url }}">{{ childlink.title | escape }}</a></li>
             
           {% endfor %}
          </ul>
         </li>
         {%- for grandchildlink in childlink.links -%}
           <li class="" >
-            <a class="mainchilde" href="" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
+            <a class="mainchilde" href="{{ grandchildlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
               {{ grandchildlink.title | escape }}
             </a>
           </li>
         {%- endfor -%}
     {% else %}
-        <li class="footer-friest-child"><a class="mainchilde" href="">{{ link.title }}</a></li>
+        <li class="footer-friest-child"><a class="mainchilde" href="{{ link.url }}">{{ link.title }}</a></li>
     {% endif %}
 {% endfor %}
   </ul>
@@ -36,8 +36,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-  $(".footer-grandchilde").click(function(){
-    $(".mainchilde").toggle();
+  $(".mainchilde").click(function(){
+    $(".footer-grandchilde").toggle();
   });
 });
 </script>
