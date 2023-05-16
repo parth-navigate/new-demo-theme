@@ -22,6 +22,7 @@ $(document).ready(function(){
   	loop:false,
   	nav:false,
     autoplay:true,
+    slideSpeed:200,
     dot:false,
   	responsiveClass:true,
     responsive:{
