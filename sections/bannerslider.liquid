@@ -10,6 +10,9 @@
 <div class="brand-banner owl-carousel owl-theme">
   <div>
     {% for block in section.blocks %}
+      <div>
+        <img class="" src="{{ block.settings.brand-images | image_url  }}"/>
+      </div>
     {%endfor%}
   </div>
 </div>
