@@ -21,6 +21,7 @@ $(document).ready(function(){
   	items:1,
   	loop:false,
   	nav:false,
+    autoplay:true,
     dot:false,
   	responsiveClass:true,
     responsive:{
