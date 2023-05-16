@@ -20,7 +20,7 @@ $(document).ready(function(){
   $(".brand-slider").owlCarousel({
   	items:1,
   	loop:false,
-  	nav:true,
+  	nav:false,
     dot:false,
   	responsiveClass:true,
     responsive:{
