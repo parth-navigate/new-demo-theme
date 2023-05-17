@@ -4,10 +4,9 @@
       <img class="footer1logo" src="{{ section.settings.footer1logo | image_url }} "/>
     </div>
     <div>
-           <ul class="footer-option" {{ section.settings.footer }}> 
-        {% assign foo = 'our-services' %}
-    {% assign foo = 'main-menu' %}
-  {% for link in linklists.footer.links %}
+           <ul class="footer-option"> 
+        {% assign foo = section.settings.footer %}
+  {% for link in linklists.foo.links %}
     {% assign child_list_handle = '' | handleize %}
     {% if linklists[child_list_handle].links != blank %}
         <li class="footer-friest-child">
