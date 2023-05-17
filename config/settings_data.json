@@ -97,10 +97,24 @@
             "settings": {
               "footer": "footer"
             }
+          },
+          "4575255d-5bd5-4be4-887b-07c7bf5a4acf": {
+            "type": "text",
+            "settings": {
+              "footer": ""
+            }
+          },
+          "c1e39347-d8e9-4ab5-bde8-f10886e0c5b7": {
+            "type": "text",
+            "settings": {
+              "footer": ""
+            }
           }
         },
         "block_order": [
-          "f2a83757-3dda-42bf-808b-c6ec12bcee09"
+          "f2a83757-3dda-42bf-808b-c6ec12bcee09",
+          "4575255d-5bd5-4be4-887b-07c7bf5a4acf",
+          "c1e39347-d8e9-4ab5-bde8-f10886e0c5b7"
         ],
         "settings": {
           "footer1logo": "shopify:\/\/shop_images\/06_Friant_Wordmark_Inverse_1__1.png"
