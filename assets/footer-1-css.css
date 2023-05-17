@@ -36,6 +36,10 @@ ul{
 .socialmedia-logos{
   float:right;
 }
+.copy-text{
+    font-size: 14px;
+    color: #ffffffb8;
+}
 @media only screen and (max-width: 500px){
 /* For mobile phone: */
     .footer-parant{
