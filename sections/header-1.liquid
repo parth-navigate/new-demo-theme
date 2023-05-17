@@ -1,57 +1,51 @@
 <div class="main">
-  <div class="parant">
-    <div class="section1">
-      
-        
-        <img class="closicon" src="{{ section.settings.mobilemenuicon | image_url }} "/>
-      
-      <div>
-        <img src="{{ section.settings.logo | img_url }}"/>
+   <div class="parant">
+      <div class="section1">
+         <img class="closicon" src="{{ section.settings.mobilemenuicon | image_url }} "/>
+         <div>
+            <img src="{{ section.settings.logo | img_url }}"/>
+         </div>
+         <div class="mobilestructure">
+            <img class="closicon" src="{{ section.settings.closeicon | img_url }}"/>
+            <ul class="dropdwonmobilemenu">
+               {% for link in linklists.main-menu.links %}
+               {% assign child_list_handle = link.title | handleize %}
+               {% if linklists[child_list_handle].links != blank %}
+               <li class="list-style {{ link.title }}" >
+                  <a class="linktext" href="{{ link.url }}">{{ link.title }}</a>
+                  <img class="addicon" src="{{ section.settings.addicon | image_url }}"/>
+                  <ul class="grandclidehideshow">
+                     {% for childlink in linklists[child_list_handle].links %}
+                     <li class="linktext" ><a class="linktext-2" href="{{ childlink.url }}">{{ childlink.title | escape }}</a></li>
+                     {% endfor %}
+                  </ul>
+               </li>
+               {%- for grandchildlink in childlink.links -%}
+               <li class="list-style" >
+                  <a class="linktext" href="{{ grandchildlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
+                  {{ grandchildlink.title | escape }}
+                  </a>
+               </li>
+               {%- endfor -%}
+               {% else %}
+               <li class="list-style"><a class="linktext" href="{{ link.url }}">{{ link.title }}</a></li>
+               {% endif %}
+               {% endfor %}
+            </ul>
+         </div>
+         <div class="potition-1">
+            <div class="signup-logo">
+               <img src="{{ section.settings.logo-2 | img_url }}"/>
+            </div>
+            <div class="signup-logo">
+               <a style="color:#1c1c1c;" href="https://apgart.com/account/login">{{ section.settings.signup }}</a>
+            </div>
+            <div class="signup-logo">
+               <img src="{{ section.settings.add-to-cart | image_url }}"
+            </div>
+         </div>
       </div>
-      <div class="mobilestructure">
-          <img class="closicon" src="{{ section.settings.closeicon | img_url }}"/>
-          <ul class="dropdwonmobilemenu">
-  {% for link in linklists.main-menu.links %}
-    {% assign child_list_handle = link.title | handleize %}
-    {% if linklists[child_list_handle].links != blank %}
-        <li class="list-style {{ link.title }}" >
-          <a class="linktext" href="{{ link.url }}">{{ link.title }}</a>
-          <img class="addicon" src="{{ section.settings.addicon | image_url }}"/>
-         <ul class="grandclidehideshow">
-           {% for childlink in linklists[child_list_handle].links %}
-               <li class="linktext" ><a class="linktext-2" href="{{ childlink.url }}">{{ childlink.title | escape }}</a></li>
-            
-          {% endfor %}
-         </ul>
-        </li>
-        {%- for grandchildlink in childlink.links -%}
-          <li class="list-style" >
-            <a class="linktext" href="{{ grandchildlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
-              {{ grandchildlink.title | escape }}
-            </a>
-          </li>
-        {%- endfor -%}
-    {% else %}
-        <li class="list-style"><a class="linktext" href="{{ link.url }}">{{ link.title }}</a></li>
-    {% endif %}
-{% endfor %}
-  </ul>
-      </div>
-      <div class="potition-1">
-        <div class="signup-logo">
-          <img src="{{ section.settings.logo-2 | img_url }}"/>
-        </div>
-        <div class="signup-logo">
-          <a style="color:#1c1c1c;" href="https://apgart.com/account/login">{{ section.settings.signup }}</a>
-          
-        </div>
-        <div class="signup-logo">
-          <img src="{{ section.settings.add-to-cart | image_url }}"
-        </div>
-      </div>  
-    </div>
-  </div>
-  
+   </div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
