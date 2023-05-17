@@ -10,7 +10,7 @@
       </div>
       <div class="mobilestructure">
           <img class="closicon" src="{{ section.settings.closeicon | img_url }}"/>
-          <ul class="dropdwonmobilemenu">
+          <ul class="dropdwonmobilemenu" {{ section.settings.main-menu }}>
   {% for link in linklists.main-menu.links %}
     {% assign child_list_handle = link.title | handleize %}
     {% if linklists[child_list_handle].links != blank %}
