@@ -49,4 +49,7 @@ ul{
   .active .footer-grandchilde{
     display:block;
   }
+  .mainchilde-sub-class{
+    font-size:17px;
+  }
   }
