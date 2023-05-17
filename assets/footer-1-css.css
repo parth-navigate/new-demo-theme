@@ -17,6 +17,7 @@ a{
 .footer-parant{
   display:flex;
   align-items:start;
+  justify-content:space-around;
 }
 ul{
   padding:0;
