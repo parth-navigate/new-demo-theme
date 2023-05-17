@@ -67,6 +67,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $(".addicon").click(function(){
     $(this).parent(".list-style").toggleClass('active');
+    $(".list-style").not(this).removeClass("active");
   });
 });
 </script>
