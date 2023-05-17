@@ -25,9 +25,11 @@ ul{
 }
 .mainchilde{
   color:white;
+  font-size:19px;
 }
 .mainchilde-sub-class{
   color:white;
+  font-size:14px;
 }
 @media only screen and (max-width: 500px){
 /* For mobile phone: */
