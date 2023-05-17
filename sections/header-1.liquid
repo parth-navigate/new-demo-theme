@@ -66,8 +66,8 @@ $(document).ready(function(){
 <script>
 $(document).ready(function(){
   $(".addicon").click(function(){
-    $(this).parent(".grandclidehideshow").toggleClass('active');
-    
+    $(this).parent(".list-style").toggleClass('active');
+    $(".list-style").not(this).removeClass("active");
   });
 });
 </script>
