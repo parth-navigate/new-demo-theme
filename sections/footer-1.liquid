@@ -37,7 +37,8 @@
 <script>
 $(document).ready(function(){
   $(".mainchilde").click(function(){
-    $(".footer-grandchilde").toggle();
+    
+    $(this).parent(".footer-grandchilde").toggleClass('active');
   });
 });
 </script>
