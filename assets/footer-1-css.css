@@ -64,4 +64,8 @@ ul{
   .header-1main{
     padding: 15px 15px 24%;
   }
+  .socialmedia-logos{
+    float:left;
+    width:100%;
+  }
   }
