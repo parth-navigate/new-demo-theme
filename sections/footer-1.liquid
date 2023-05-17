@@ -5,9 +5,9 @@
     </div>
     <div>
            <ul class="footer-option" {{ section.settings.footer }}> 
-  {% for link in linklists.footer.links %}
-    {% assign foo = 'our-services' %}
+        {% assign foo = 'our-services' %}
     {% assign foo = 'main-menu' %}
+  {% for link in linklists.footer.links %}
     {% assign child_list_handle = link.title | handleize %}
     {% if linklists[child_list_handle].links != blank %}
         <li class="footer-friest-child">
