@@ -26,7 +26,8 @@
           "mobilemenuicon": "shopify:\/\/shop_images\/icons8-line-width-22.png",
           "add-to-cart": "shopify:\/\/shop_images\/icons8-shopping-cart-21.png",
           "closeicon": "shopify:\/\/shop_images\/icons8-cancel-20.png",
-          "addicon": "shopify:\/\/shop_images\/icons8-plus-24.png"
+          "addicon": "shopify:\/\/shop_images\/icons8-plus-24.png",
+          "main-menu": ""
         }
       },
       "bannerslider": {
@@ -92,7 +93,7 @@
         "type": "footer-1",
         "settings": {
           "footer1logo": "shopify:\/\/shop_images\/06_Friant_Wordmark_Inverse_1__1.png",
-          "menu": "footer"
+          "footer": "main-menu"
         }
       },
       "footer-option-2": {
