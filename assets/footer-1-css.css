@@ -26,6 +26,9 @@ ul{
 .mainchilde{
   color:white;
 }
+.mainchilde-sub-class{
+  color:white;
+}
 @media only screen and (max-width: 500px){
 /* For mobile phone: */
     .footer-parant{
