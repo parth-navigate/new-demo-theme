@@ -8,6 +8,7 @@
   {% for link in linklists.footer.links %}
     {% assign child_list_handle = link.title | handleize %}
     {% if linklists[child_list_handle].links != blank %}
+          {% assign foo = 'our-services' %}
         <li class="footer-friest-child">
           <span class="mainchilde"> {{ link.title }} </span>
          <ul class="footer-grandchilde">
