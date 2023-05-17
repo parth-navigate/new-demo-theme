@@ -39,6 +39,7 @@
 $(document).ready(function(){
   $(".mainchilde").click(function(){
     $(this).parent(".footer-friest-child").toggleClass('active');
+      $(".footer-friest-child").not(this).removeClass("active");
   });
 });
 </script>
