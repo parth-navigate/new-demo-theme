@@ -10,7 +10,7 @@
 
              {{ foo }}
   {% for link in linklists.foo.links %}
-    {% assign child_list_handle = 'link.title' | handleize %}
+    {% assign child_list_handle = link.title | handleize %}
     {% if linklists[child_list_handle].links != blank %}
         <li class="footer-friest-child">
           <span class="mainchilde"> {{ link.title }} </span>
