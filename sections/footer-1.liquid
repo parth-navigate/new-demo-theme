@@ -38,8 +38,8 @@
 <script>
 $(document).ready(function(){
   $(".mainchilde").click(function(){
-    $(this).parent(".footer-friest-child").toggleClass('active');
-      
+       $('.footer-friest-child').removeClass("active");
+        $(this).parent().addClass("active");
   });
 });
 </script>
