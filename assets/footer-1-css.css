@@ -33,6 +33,9 @@ ul{
   color:#ffffffb8;
   font-size:14px;
 }
+.socialmedia-logos{
+  float:right;
+}
 @media only screen and (max-width: 500px){
 /* For mobile phone: */
     .footer-parant{
