@@ -91,6 +91,17 @@
       },
       "footer-1": {
         "type": "footer-1",
+        "blocks": {
+          "f2a83757-3dda-42bf-808b-c6ec12bcee09": {
+            "type": "text",
+            "settings": {
+              "footer": "footer"
+            }
+          }
+        },
+        "block_order": [
+          "f2a83757-3dda-42bf-808b-c6ec12bcee09"
+        ],
         "settings": {
           "footer1logo": "shopify:\/\/shop_images\/06_Friant_Wordmark_Inverse_1__1.png"
         }
