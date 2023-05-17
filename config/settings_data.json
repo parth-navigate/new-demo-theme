@@ -91,7 +91,8 @@
       "footer-1": {
         "type": "footer-1",
         "settings": {
-          "footer1logo": "shopify:\/\/shop_images\/06_Friant_Wordmark_Inverse_1__1.png"
+          "footer1logo": "shopify:\/\/shop_images\/06_Friant_Wordmark_Inverse_1__1.png",
+          "menu": "footer"
         }
       },
       "footer-option-2": {
