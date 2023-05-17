@@ -4,8 +4,10 @@
       <img class="footer1logo" src="{{ section.settings.footer1logo | image_url }} "/>
     </div>
     <div>
+       {%- for block in section.blocks -%}
+    <div>
            <ul class="footer-option"> 
-    {%- for block in section.blocks -%}
+      
         {% assign foo = section.settings.footer %}
   {% for link in linklists[foo].links %}
     {% assign child_list_handle = link.title | handleize %}
@@ -30,9 +32,10 @@
         <li class="footer-friest-child"><a class="mainchilde-sub-class" href="{{ link.url }}">{{ link.title }}</a></li>
     {% endif %}
 {% endfor %}
-{% endfor %}
   </ul>
     </div>
+{% endfor %}
+</div>
   </div>
 </div>
 
