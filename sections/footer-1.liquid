@@ -8,7 +8,7 @@
         
   {% for link in linklists.foo.links %}
     {% assign foo = section.settings.footer %}
-    {% assign child_list_handle = '' | handleize %}
+    {% assign child_list_handle = 'link.title' | handleize %}
     {% if linklists[child_list_handle].links != blank %}
         <li class="footer-friest-child">
           <span class="mainchilde"> {{ link.title }} </span>
