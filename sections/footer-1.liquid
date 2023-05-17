@@ -4,6 +4,7 @@
       <img class="footer1logo" src="{{ section.settings.footer1logo | image_url }} "/>
     </div>
     <div>
+             {%- for block in section.blocks -%}
            <ul class="footer-option"> 
       
         {% assign foo = section.settings.footer %}
@@ -31,6 +32,7 @@
     {% endif %}
 {% endfor %}
   </ul>
+  {% endfor %}
     </div>
   </div>
 </div>
