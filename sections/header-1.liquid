@@ -2,7 +2,7 @@
    <div class="parant">
       <div class="section1">
          <img class="closicon" src="{{ section.settings.mobilemenuicon | image_url }} "/>
-         <div class="logo-foooter">
+         <div>
             <img src="{{ section.settings.logo | img_url }}"/>
          </div>
          <div class="mobilestructure">
@@ -11,7 +11,7 @@
                {% for link in linklists.main-menu.links %}
                {% assign child_list_handle = link.title | handleize %}
                {% if linklists[child_list_handle].links != blank %}
-               <li class="list-style {{ link.title }}">
+               <li class="list-style {{ link.title }}" >
                   <a class="linktext" href="{{ link.url }}">{{ link.title }}</a>
                   <img class="addicon" src="{{ section.settings.addicon | image_url }}"/>
                   <ul class="grandclidehideshow">
@@ -41,7 +41,7 @@
                <a style="color:#1c1c1c;" href="https://apgart.com/account/login">{{ section.settings.signup }}</a>
             </div>
             <div class="signup-logo">
-               <img src="{{ section.settings.add-to-cart | image_url }}"
+               <img src="{{ section.settings.add-to-cart | image_url }}"/>
             </div>
          </div>
       </div>
