@@ -10,7 +10,7 @@
         {% assign blo = block.settings.blog %}
         {% for article in blogs[blo].articles %}
         {{- article.image | image_url: width: 361 | image_tag }}<br/>
-        <p class="title">{{- article.title -}}</p><br/>
+        <p class="demo-blog-title">{{- article.title -}}</p><br/>
         {% endfor %}
     </div>
     {% endfor %}
@@ -58,6 +58,12 @@
     text-transform: capitalize;
     position: relative;
     margin-bottom: 15px;
+  }
+  .demo-blog-title{
+    font-size: 18px;
+    font-family: Proxima Nova Rg;
+    font-weight: 600;
+    border-bottom: 1px solid #ccc;
   }
 </style>
 {% schema %}
