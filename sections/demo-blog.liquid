@@ -5,7 +5,7 @@
     </div>
   <div class="blog-parent">
         {%- for block in section.blocks -%}
-    <div>
+    <div class="blog-img-content">
         {% assign blo = block.settings.blog %}
         {% for article in blogs[blo].articles %}
         {{- article.title -}}<br/>
@@ -32,6 +32,9 @@
   .blog-demo-main{
     max-width: 1165px;
     margin: auto;
+  }
+  .blog-img-content{
+    width:33.33%;
   }
 </style>
 {% schema %}
