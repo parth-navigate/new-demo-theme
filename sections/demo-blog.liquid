@@ -10,7 +10,7 @@
         {% assign blo = block.settings.blog %}
         {% for article in blogs[blo].articles %}
         <img class="blog-img" src="{{- article.image | image_url: width: 361  }} "/>   
-        <p class="demo-blog-title">{{- article.title -}} </p><br/>
+        <h2 class="demo-blog-title">{{- article.title -}} </h2><br/>
         <p class="blog-content">{{- article.content | strip_html | truncatewords: 30 }}</p>
         <div class="readmore-button">
           <p style="padding-bottom:12px; margin-top:7px;"><a class="readmore" href="{{ article.url }}">Read more</a></p>
@@ -67,7 +67,6 @@
     font-size: 18px;
     font-family: Proxima Nova Rg;
     font-weight: 600;
-    
     padding-bottom:0;
     margin-bottom:0;
   }
@@ -75,6 +74,9 @@
     font-size: 18px;
     font-family: Proxima Nova Rg;
     font-weight: 600;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 0px;
   }
   .readmore{
     float: right;
