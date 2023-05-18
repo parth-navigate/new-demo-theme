@@ -5,7 +5,6 @@
         {% assign blo = section.settings.blog %}
         {% for article in blogs[blo].articles %}
         {{- article.title -}}<br/>
-        {{- article.id  -}}<br/>
         {{- article.image | image_url: width: 400 | image_tag }}<br/>
         {% endfor %}
     </div>
