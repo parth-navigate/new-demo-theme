@@ -14,6 +14,7 @@
         <div class="readmore-button">
           
           <p style="padding-bottom:12px; margin-top:7px;"><a class="readmore" href="{{ article.url }}">Read more</a></p>
+          {{- article.content | strip_html | truncatewords: 100 }}
         </div>  
         {% endfor %}
     </div>
