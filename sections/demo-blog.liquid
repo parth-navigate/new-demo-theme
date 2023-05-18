@@ -1,4 +1,5 @@
 <div class="blog-demo-main">
+  <p>{{ section.settings.title-blog }}</p>
   <div class="blog-parent">
     <div>
         {% assign blo = section.settings.blog %}
@@ -19,6 +20,11 @@
       "id": "blog",
       "type": "blog",
       "label": "Blog"
+    },
+      {
+      "id": "title-blog",
+      "type": "text",
+      "label": "Blog-text"
     }
     ]
   }
