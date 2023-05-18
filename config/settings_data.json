@@ -127,6 +127,13 @@
           "footer1logo": "shopify:\/\/shop_images\/Logo-Navigate.png",
           "socialmedia-logo": "shopify:\/\/shop_images\/3_KUWAIT_Payment.png"
         }
+      },
+      "demo-blog": {
+        "type": "demo-blog",
+        "settings": {
+          "title": "",
+          "blog": "test"
+        }
       }
     },
     "content_for_index": [
