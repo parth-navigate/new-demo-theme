@@ -12,7 +12,8 @@
         <img class="blog-img" src="{{- article.image | image_url: width: 361  }} "/>   
         <p class="demo-blog-title">{{- article.title -}} </p><br/>
         <div class="readmore-button">
-          <p style="padding-bottom:12px; margin-top:7px;"><a class="readmore" href="/blogs/news/indulge-in-the-bubbly-goodness-of-non-alcoholic-sparkling-wine" tabindex="0">Read more</a></p>
+          
+          <p class="readmore" style="padding-bottom:12px; margin-top:7px;> {{  article.url }}Read more</a></p>
         </div>  
         {% endfor %}
     </div>
