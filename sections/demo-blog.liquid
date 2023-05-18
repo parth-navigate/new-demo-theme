@@ -3,7 +3,7 @@
  {% for article in blogs[blo].articles %}
   {{- article.title -}}<br/>
   {{- article.id  -}}<br/>
-  {{- article.image | img_url  -}}<br/>
+  {{ article.image | image_tag:''  }}<br/>
 {% endfor %}
 
 {% schema %}
