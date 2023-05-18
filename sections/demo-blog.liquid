@@ -4,7 +4,6 @@
       <a href="/blogs/news">View All</a>
     </div>
   <div class="blog-parent">
-        {%- for block in section.blocks -%}
     <div class="blog-img-content">
         {% assign blo = block.settings.blog %}
         {% for article in blogs[blo].articles %}
@@ -12,7 +11,6 @@
         {{- article.image | image_url: width: 400 | image_tag }}<br/>
         {% endfor %}
     </div>
-    {% endfor %}
   </div> 
 </div>
 <style>
