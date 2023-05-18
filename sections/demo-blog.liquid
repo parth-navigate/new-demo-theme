@@ -5,6 +5,9 @@
           {%- endif -%}
           <h2>{{ article.title }}</h2>
 
+ {% for article in blogs.potion-notions.articles %}
+  {{- article.title | link_to: article.url }}
+{% endfor %}
 {% schema %}
   {
     "name": "Section name",
