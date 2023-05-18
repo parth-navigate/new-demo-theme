@@ -9,7 +9,7 @@
     <div class="blog-img-content">
         {% assign blo = block.settings.blog %}
         {% for article in blogs[blo].articles %}
-        {{- article.image | image_url: width: 361 | image_tag }}<br/>
+        {{- article.image | image_url | image_tag }}<br/>
         <p>{{- article.title -}}</p><br/>
         {% endfor %}
     </div>
