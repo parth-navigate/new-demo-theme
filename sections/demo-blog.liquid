@@ -1,7 +1,7 @@
 
 {% assign blo = section.settings.blog %}
  {% for article in blogs[blo].articles %}
-  {{- article.title | link_to: article.url }}<br/>
+  {{- article.title -}}<br/>
   {{- article.id | link_to: article.url }}<br/>
 {% endfor %}
 
