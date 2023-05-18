@@ -5,7 +5,7 @@
           {%- endif -%}
           <h2>{{ article.title }}</h2>
 
- {% for article in blog %}
+ {% for article in blogs.news.articles %}
   {{- article.title | link_to: article.url }}
 {% endfor %}
 {% schema %}
