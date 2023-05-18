@@ -11,10 +11,8 @@
         {% for article in blogs[blo].articles %}
         {{- article.image | image_url: width: 361 | image_tag }}<br/>
         <p class="demo-blog-title">{{- article.title -}}</p><br/>
-        {% endfor %}
-    </div>
-    <div>
       <a href="/blogs/news/indulge-in-the-bubbly-goodness-of-non-alcoholic-sparkling-wine" tabindex="0">Read more</a>
+        {% endfor %}
     </div>
     {% endfor %}
   </div> 
