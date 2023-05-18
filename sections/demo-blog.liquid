@@ -1,4 +1,6 @@
 <h1>{{ section.settings.title | escape }}</h1>
+{%- assign blog = blogs[section.settings.blog] -%}
+
 {% schema %}
   {
     "name": "Section name",
