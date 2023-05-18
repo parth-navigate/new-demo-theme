@@ -6,9 +6,10 @@
   <div class="blog-parent">
     
        
-    <div class="blog-img-content">
+    
         {% assign blo = section.settings.blog %}
         {% for article in blogs[blo].articles %}
+       <div class="blog-img-content">   
          <div> 
             <img class="blog-img" src="{{- article.image | image_url: width: 361  }} "/>   
             <h2 class="demo-blog-title">{{- article.title -}} </h2><br/>
@@ -17,8 +18,9 @@
               <p style="padding-bottom:12px; margin-top:7px;"><a class="readmore" href="{{ article.url }}">Read more</a></p>
             </div>  
          </div>
+        </div>
         {% endfor %}
-    </div>
+    
   </div> 
 </div>
 <style>
