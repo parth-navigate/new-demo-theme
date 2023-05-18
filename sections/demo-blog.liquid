@@ -1,6 +1,9 @@
 {%- assign blog = blogs[section.settings.blog] -%}
 <h1>{{ section.settings.title | escape }} </h1>
- <h2>{{ article.title }}</h2>
+  {%- if article.image -%}
+            {{ article | img_url: '150x150', scale: 2 | img_tag: '' }}
+          {%- endif -%}
+          <h2>{{ article.title }}</h2>
 
 {% schema %}
   {
