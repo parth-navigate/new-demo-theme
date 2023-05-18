@@ -11,7 +11,7 @@
         {% for article in blogs[blo].articles %}
         {{- article.image | image_url: width: 361 | image_tag }}<br/>
         <p class="demo-blog-title">{{- article.title -}}</p><br/>
-        <div>
+        <div class="readmore-button">
           <p><a class="readmore" href="/blogs/news/indulge-in-the-bubbly-goodness-of-non-alcoholic-sparkling-wine" tabindex="0">Read more</a></p>
         </div>  
         {% endfor %}
@@ -76,6 +76,9 @@
     font-size: 15px;
     font-family: proxima_novasemibold;
     color: #000;
+  }
+  .readmore-button{
+    border-top: 1px solid #ccc;
   }
 </style>
 {% schema %}
