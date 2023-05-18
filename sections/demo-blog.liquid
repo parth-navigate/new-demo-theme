@@ -4,6 +4,7 @@
   {{- article.title -}}<br/>
   {{- article.id  -}}<br/>
   {{- article.image | image_url: width: 400 | image_tag }}<br/>
+  {{- article.comments_enabled?  }}
 {% endfor %}
 
 {% schema %}
