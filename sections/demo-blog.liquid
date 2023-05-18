@@ -4,7 +4,7 @@
             {{ article | img_url: '150x150', scale: 2 | img_tag: '' }}
           {%- endif -%}
           <h2>{{ article.title }}</h2>
-{% assign blo = block.settings.News %}
+{% assign blo = section.settings.News %}
  {% for article in blogs[blo].articles %}
   {{- article.title | link_to: article.url }}<br/>
 {% endfor %}
