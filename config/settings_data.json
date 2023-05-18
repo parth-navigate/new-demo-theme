@@ -131,8 +131,7 @@
       "demo-blog": {
         "type": "demo-blog",
         "settings": {
-          "title": "",
-          "blog": "news"
+          "blog": "demo-blog"
         }
       }
     },
