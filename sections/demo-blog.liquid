@@ -1,9 +1,14 @@
-
+<h1>{{ section.settings.title | escape }}</h1>
 {% schema %}
   {
     "name": "Section name",
     "settings": [
-      
+       {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Blog posts"
+    }
     ]
   }
 {% endschema %}
