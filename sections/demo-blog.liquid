@@ -1,5 +1,5 @@
 
-{% assign blo = section.settings.News %}
+{% assign blo = section.settings.blog %}
  {% for article in blogs[blo].articles %}
   {{- article.title | link_to: article.url }}<br/>
 {% endfor %}
