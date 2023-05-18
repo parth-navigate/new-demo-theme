@@ -9,7 +9,7 @@
     <div class="blog-img-content">
         {% assign blo = block.settings.blog %}
         {% for article in blogs[blo].articles %}
-        <img class="" src="{{- article.image | image_url: width: 361  }} "/>
+        <img class="blog-img" src="{{- article.image | image_url: width: 361  }} "/>
         
         <p class="demo-blog-title">{{- article.title -}}</p><br/>
         <div class="readmore-button">
@@ -89,6 +89,9 @@
   }
   .blog-img-content{
     width:80%;
+  }
+  .blog-img{
+    width:100px;
   }
   }
 </style>
