@@ -5,7 +5,7 @@
     </div>
   <div class="blog-parent">
     
-        {%- for block in section.blocks -%}
+       
     <div class="blog-img-content">
         {% assign blo = block.settings.blog %}
         {% for article in blogs[blo].articles %}
@@ -17,7 +17,6 @@
         </div>  
         {% endfor %}
     </div>
-    {% endfor %}
   </div> 
 </div>
 <style>
@@ -122,6 +121,11 @@
       "id": "title-blog",
       "type": "text",
       "label": "Blog-text"
+    },
+      {
+      "type": "blog",
+      "id": "blog",
+      "label": "Add Blog Category"
     }
     ],
           "blocks": [
@@ -129,11 +133,7 @@
     "type": "text",
     "name": " Add menu",
    "settings": [
-        {
-      "type": "blog",
-      "id": "blog",
-      "label": "Add Blog Category"
-    }
+        
    ]
   }
   ]
