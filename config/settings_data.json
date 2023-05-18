@@ -134,19 +134,12 @@
           "c9c718f0-cbf4-4bbb-bdcd-e0b695efc9bd": {
             "type": "text",
             "settings": {
-              "blog": "test"
-            }
-          },
-          "a442fcf2-eacf-4e41-939f-4d8dc814e9a7": {
-            "type": "text",
-            "settings": {
               "blog": "news"
             }
           }
         },
         "block_order": [
-          "c9c718f0-cbf4-4bbb-bdcd-e0b695efc9bd",
-          "a442fcf2-eacf-4e41-939f-4d8dc814e9a7"
+          "c9c718f0-cbf4-4bbb-bdcd-e0b695efc9bd"
         ],
         "settings": {
           "title-blog": "Blog Title"
