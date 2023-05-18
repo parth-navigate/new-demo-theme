@@ -10,7 +10,7 @@
         {% assign blo = block.settings.blog %}
         {% for article in blogs[blo].articles %}
         {{- article.title -}}<br/>
-        {{- article.image | image_url: width: 400 | image_tag }}<br/>
+        {{- article.image | image_url: width: 361 | image_tag }}<br/>
         {% endfor %}
     </div>
     {% endfor %}
