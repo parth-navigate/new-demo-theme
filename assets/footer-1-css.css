@@ -40,6 +40,10 @@ ul{
     font-size: 14px;
     color: #ffffffb8;
 }
+  .blog-demo-main{
+    max-width: 1211px;
+    margin: auto;
+  }
 @media only screen and (max-width: 500px){
 /* For mobile phone: */
     .footer-parant{
