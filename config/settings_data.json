@@ -159,6 +159,17 @@
       },
       "mx-online-header": {
         "type": "mx-online-header",
+        "blocks": {
+          "bf97e509-e203-4603-a745-75850492aff3": {
+            "type": "text",
+            "settings": {
+              "Rectangle444": "shopify:\/\/shop_images\/shutterstock_1103989091.png"
+            }
+          }
+        },
+        "block_order": [
+          "bf97e509-e203-4603-a745-75850492aff3"
+        ],
         "settings": {
           "mx-online-logo": "shopify:\/\/shop_images\/Group_5369.svg"
         }
