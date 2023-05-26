@@ -33,6 +33,7 @@
             <div>
               <a href="">Sign in</a>
               <img class="" src="{{ section.settings.mx-search-icon | image_url }} "/>
+              <img class="" src="{{ section.settings.mx-menu-icon | image_url }} "/>
             </div>
          </div>
       </div>
@@ -43,7 +44,6 @@
           {%- for block in section.blocks -%}
         <div class="slider">
         <div class="">
-          
           <img class="" src="{{ block.settings.Rectangle444 | image_url  }}">
         </div>
         </div>
@@ -91,6 +91,11 @@
       "type": "image_picker",
       "id": "mx-search-icon",
       "label": "Mx search icon"
+    },
+    {
+      "type": "image_picker",
+      "id": "mx-menu-icon",
+      "label": "Mx menu icon"
     }
     ],
          "blocks": [
