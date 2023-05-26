@@ -49,7 +49,7 @@
           <div class="uaes-img">
             <img class="UAE-img" src="{{ section.settings.uae-img | image_url  }}">
             <div class="shopnow-button-2">
-              <a class="shopnow-2" href="">SHOP NOW  <span>></span></a>
+              <a class="shopnow-2" href="">SHOP NOW <span class="left-arrow">></span></a>
             </div>
             </div>
         </div>
@@ -153,6 +153,12 @@
     left: 15px;
     right: 0;
       transition: width 1s;
+}
+.left-arrow::after{
+  content: " > ";
+}
+.left-arrow::befor{
+  content: " > ";
 }
 .shopnow-2:hover::after{
   width:40%;
