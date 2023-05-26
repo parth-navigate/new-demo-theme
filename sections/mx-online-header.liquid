@@ -1,7 +1,7 @@
 <div class="main">
   <div class="parent">
+    <div>
     <div class="mx-header">
-      <div class="container">
       <div>
         <img class="footer1logo" src="{{ section.settings.mx-online-logo | image_url }} "/>
       </div>
@@ -31,11 +31,11 @@
                {% endfor %}
             </ul>
          </div>
-      </div>
+    </div>
     </div>
     <div class="mx-banners">
       <div>
-        <div class="mx-banner container owl-carousel owl-theme" >
+        <div class="mx-banner  owl-carousel owl-theme" >
           {%- for block in section.blocks -%}
         <div class="slider">
         <div class="">
@@ -45,23 +45,20 @@
           {% endfor %}
         </div>
       </div>
+      
     </div>
-    </div>
+  </div>
   
 </div>
 <style>
-  .container{
+  .mx-header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width:1200px;
-    margin:auto;
-  }
-  .mx-header{
-    
+    max-width: 1200px;
+    margin: auto;
     position: absolute;
     z-index: 2;
-    width:100%;
   }
   .parent{
     position: relative;
