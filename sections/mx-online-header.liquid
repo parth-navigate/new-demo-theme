@@ -5,7 +5,7 @@
       <div>
         <img class="footer1logo" src="{{ section.settings.mx-online-logo | image_url }} "/>
       </div>
-      <div class="">
+      <div class="header-desktopmenu">
             <ul class="">
                {% for link in linklists.main-menu.links %}
                {% assign child_list_handle = link.title | handleize %}
@@ -87,6 +87,9 @@
   .header-bar-icon{
     width:25px;
     vertical-align: middle;
+  }
+  .header-desktopmenu{
+    margin-left:21%;
   }
 </style>
 {% schema %}
