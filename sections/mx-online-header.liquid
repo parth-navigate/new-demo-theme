@@ -31,7 +31,7 @@
                {% endfor %}
             </ul>
             <div>
-              <a href="">Sign in</a>
+              <a class="signin-button" href="">Sign in</a>
               <img class="" src="{{ section.settings.mx-search-icon | image_url }} "/>
               <img class="" src="{{ section.settings.mx-menu-icon | image_url }} "/>
             </div>
@@ -77,6 +77,12 @@
   }
   .parent{
     position: relative;
+  }
+  .signin-button{
+    border: 2px solid #c9fd0e;
+    padding: 3px 15px;
+    border-radius: 27px;
+    color: white;
   }
 </style>
 {% schema %}
