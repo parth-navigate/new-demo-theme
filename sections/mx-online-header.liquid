@@ -1,11 +1,11 @@
 <div class="main">
   <div class="parent">
-    <div>
+    <div class="mx-header">
       <div>
         <img class="footer1logo" src="{{ section.settings.mx-online-logo | image_url }} "/>
       </div>
-      <div class="mobilestructure">
-            <ul class="dropdwonmobilemenu">
+      <div class="">
+            <ul class="">
                {% for link in linklists.main-menu.links %}
                {% assign child_list_handle = link.title | handleize %}
                {% if linklists[child_list_handle].links != blank %}
