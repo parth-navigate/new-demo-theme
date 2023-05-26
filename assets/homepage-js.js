@@ -36,3 +36,24 @@ $(document).ready(function(){
     }
   });
 });
+
+	$(document).ready(function(){
+  $(".mx-banner").owlCarousel({
+  	items:1,
+  	loop:false,
+  	nav:false,
+    autoplay:true,
+    slideSpeed:300,
+    dot:false,
+  	responsiveClass:true,
+    responsive:{
+        767:{
+        	items:2
+        },
+        1080:{
+        	items:4
+        }
+
+    }
+  });
+});
