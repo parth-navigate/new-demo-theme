@@ -29,9 +29,10 @@
                <li class="list-style"><a class="linktext" href="{{ link.url }}">{{ link.title }}</a></li>
                {% endif %}
                {% endfor %}
-               <a class="signin-button" href="">Sign in</a>
-              <img class="header-bar-icon" src="{{ section.settings.mx-search-icon | image_url }} "/>
-              <img class="header-bar-icon" src="{{ section.settings.mx-menu-icon | image_url }} "/>
+               <li><a class="signin-button" href="">Sign in</a></li>
+               <li><img class="header-bar-icon" src="{{ section.settings.mx-search-icon | image_url }} "/></li>
+              <li><img class="header-bar-icon" src="{{ section.settings.mx-menu-icon | image_url }} "/></li>
+              
             </ul>
          </div>
         <div>
