@@ -186,7 +186,8 @@
         ],
         "settings": {
           "mx-online-logo": "shopify:\/\/shop_images\/Group_5369.svg",
-          "mx-search-icon": "shopify:\/\/shop_images\/search_2.png"
+          "mx-search-icon": "shopify:\/\/shop_images\/search_2.png",
+          "mx-menu-icon": "shopify:\/\/shop_images\/Component_55_4.png"
         }
       }
     },
