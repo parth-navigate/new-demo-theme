@@ -33,7 +33,15 @@
     </div>
     <div class="mx-banner">
       <div>
-        <img class="footer1logo" src="{{ section.settings.mx-online-logo | image_url }} "/>
+        <div class="brand-slider container owl-carousel owl-theme" >
+          {%- for block in section.blocks -%}
+        <div class="slider">
+        <div class="">
+          <img class="brand-images" src="{{ block.settings.Rectangle444 | image_url  }}">
+        </div>
+        </div>
+          {% endfor %}
+        </div>
       </div>
       
     </div>
