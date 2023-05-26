@@ -156,6 +156,12 @@
           "title-blog": "GET TO KNOW YOUR DRINKS",
           "blog": "news"
         }
+      },
+      "mx-online-header": {
+        "type": "mx-online-header",
+        "settings": {
+          "mx-online-logo": "shopify:\/\/shop_images\/Group_5369.svg"
+        }
       }
     },
     "content_for_index": [
