@@ -2,6 +2,7 @@
   <div class="parent">
     <div class="mx-header">
       <div>
+      <div>
         <img class="footer1logo" src="{{ section.settings.mx-online-logo | image_url }} "/>
       </div>
       <div class="">
@@ -43,7 +44,7 @@
           {% endfor %}
         </div>
       </div>
-      
+    </div>
     </div>
   </div>
   
@@ -53,8 +54,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
     position: absolute;
-    width:100%;
     z-index: 2;
   }
   .parent{
