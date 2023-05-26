@@ -1,7 +1,7 @@
 <div class="main">
   <div class="parent">
+    <div>
     <div class="mx-header">
-      <div>
       <div>
         <img class="footer1logo" src="{{ section.settings.mx-online-logo | image_url }} "/>
       </div>
@@ -32,6 +32,7 @@
             </ul>
          </div>
     </div>
+    </div>
     <div class="mx-banners">
       <div>
         <div class="mx-banner container owl-carousel owl-theme" >
@@ -46,7 +47,6 @@
       </div>
       
     </div>
-    </div>
   </div>
   
 </div>
@@ -55,8 +55,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
     position: absolute;
-    width:100%;
     z-index: 2;
   }
   .parent{
