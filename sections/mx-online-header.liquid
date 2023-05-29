@@ -58,13 +58,12 @@
       </div>
     </div>
     <div class="top-brand-images">
-      {%- for block in section.blocks -%}
         <div>
-          
+          {%- for block in section.blocks -%}
             <img class="" src="{{ block.settings.brand-images | image_url  }}">
-          
+          {% endfor %}
         </div>
-      {% endfor %}
+      
     </div>
     </div>
   
@@ -254,12 +253,8 @@
           "type": "image_picker",
           "id": "Rectangle444",
           "label": "Rectangle444-img"
-          },
-      {
-          "type": "image_picker",
-          "id": "brand-images",
-          "label": "brand img"
           }
+      
 
    ]
   },
