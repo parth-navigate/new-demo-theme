@@ -62,7 +62,7 @@ $(document).ready(function(){
  
 $('.our-gear-slider').slick({
   slidesToShow: 1,
-  slidesToScroll: 1,
+  slidesToScroll: 2,
   dots: true,
   centerMode: true,
   centerPadding: '200px',
