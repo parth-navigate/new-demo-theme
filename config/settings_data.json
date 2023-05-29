@@ -207,6 +207,24 @@
             "settings": {
               "brand-images": "shopify:\/\/shop_images\/Component_104_3.png"
             }
+          },
+          "780242d3-4dec-4a6a-9fb8-02f1e1ff7f6c": {
+            "type": "0urgear-images",
+            "settings": {
+              "ourgear-slider-img": "shopify:\/\/shop_images\/pexels-vedran-miletic-2341558.png"
+            }
+          },
+          "3adac0c0-96ae-4f5c-adad-5ada3ae7b6ba": {
+            "type": "0urgear-images",
+            "settings": {
+              "ourgear-slider-img": "shopify:\/\/shop_images\/5975d751618331.58f4bb42f3ed0.png"
+            }
+          },
+          "5cb1334c-a78f-4275-b94a-b4ba3db266ec": {
+            "type": "0urgear-images",
+            "settings": {
+              "ourgear-slider-img": "shopify:\/\/shop_images\/shutterstock_1103989091.png"
+            }
           }
         },
         "block_order": [
@@ -217,7 +235,10 @@
           "bfd65042-bfec-41a3-9d66-2736e96fcbb9",
           "2acac120-9c0f-41ff-b9c7-87a469adcad2",
           "690f6361-d633-4b67-9b17-f31562ea766d",
-          "230cd985-5a8c-44fe-b039-4e6abd5569f6"
+          "230cd985-5a8c-44fe-b039-4e6abd5569f6",
+          "780242d3-4dec-4a6a-9fb8-02f1e1ff7f6c",
+          "3adac0c0-96ae-4f5c-adad-5ada3ae7b6ba",
+          "5cb1334c-a78f-4275-b94a-b4ba3db266ec"
         ],
         "settings": {
           "mx-online-logo": "shopify:\/\/shop_images\/Group_5369.svg",
