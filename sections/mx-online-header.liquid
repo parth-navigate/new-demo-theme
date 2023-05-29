@@ -42,6 +42,7 @@
       <div>
         <div class="mx-banner  owl-carousel owl-theme" >
           {%- for block in section.blocks -%}
+            {% if block.type == "brand-images" %}
         <div class="slider">
         <div class="">
           <img class="" src="{{ block.settings.Rectangle444 | image_url  }}">
@@ -53,6 +54,7 @@
             </div>
             </div>
         </div>
+          {% endif %}
           {% endfor %}
         </div>
       </div>
