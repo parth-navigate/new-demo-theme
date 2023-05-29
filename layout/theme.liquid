@@ -10,6 +10,27 @@
   {{ content_for_header }} <!-- Header hook for plugins -->
   {{ 'application.css' | asset_url | stylesheet_tag }}
   {{ 'application.js' | asset_url | script_tag }}
+  <style>
+    @font-face {
+    font-family: 'ALDITH';
+    src: url('ALDITHGrunge.woff2') format('woff2'),
+      url('ALDITHGrunge.ttf') format('truetype'),
+        url('ALDITHGrunge.woff') format('woff');
+}
+@font-face {
+    font-family: 'Proxima';
+    src: url('ProximaNova-Bold.woff2') format('woff2'),
+        url('ProximaNova-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+
+  font-family: 'Proxima', Fallback;
+}
+  </style>
 </head>
 <body style="margin:0;">
 {% comment %}      
