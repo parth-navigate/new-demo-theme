@@ -36,3 +36,41 @@ $(document).ready(function(){
     }
   });
 });
+
+$(document).ready(function(){
+  $(".mx-banner").owlCarousel({
+  	items:1,
+  	loop:false,
+  	nav:true,
+    autoplay:true,
+    slideSpeed:300,
+    dots:false,
+  	responsiveClass:true,
+    responsive:{
+        767:{
+        	items:1
+        },
+        1080:{
+        	items:1
+        }
+
+    }
+  });
+});
+
+
+ $('.our-gear-text-slider').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.slider-nav'
+});
+$('.our-gear-slider').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  asNavFor: '.slider-for',
+  dots: true,
+  centerMode: true,
+  focusOnSelect: true
+});
