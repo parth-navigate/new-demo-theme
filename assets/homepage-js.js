@@ -66,5 +66,6 @@ $('.our-gear-slider').slick({
   dots: true,
   centerMode: true,
   centerPadding: '200px',
-  focusOnSelect: true
+  focusOnSelect: true,
+    arrows: true
 });
