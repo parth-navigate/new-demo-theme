@@ -85,7 +85,7 @@
             {% if block.type == "0urgear-images" %}
         <div class="ourgear-slider-images">
         <div class="">
-          <img class="" src="{{ block.settings.ourgear-slider-img | image_url  }}">
+          <img class="ourgear-slider-img" src="{{ block.settings.ourgear-slider-img | image_url  }}">
         </div>
         </div>
           {% endif %}
@@ -296,6 +296,9 @@
 }
   .our-gear-slider{
     margin-bottom:100px
+  }
+  .ourgear-slider-img{
+    width:50%;
   }
 </style>
 {% schema %}
