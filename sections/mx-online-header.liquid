@@ -105,14 +105,14 @@
             <img class="women" src="{{ section.settings.women-img | image_url  }}">
             <div class="women-text">
               <p class="women-text-1">women</p>
-              <p>explore</p>
+              <p class="explore-text">explore</p>
             </div>
           </div>
           <div class="men-img">
             <img class="men" src="{{ section.settings.men-img | image_url  }}">
             <div class="men-text">
-              <p>men</p>
-              <p>explore</p>
+              <p class="women-text-1">men</p>
+              <p class="explore-text">explore</p>
             </div>
           </div>
         </div>
@@ -378,6 +378,15 @@
     color: #FFFFFF;
     opacity: 1;
     margin: 0;
+  }
+  .explore-text{
+    text-align: center;
+    font: normal normal 300 25px/50px Proxima Nova;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 0;
+    text-transform: uppercase;
   }
 </style>
 {% schema %}
