@@ -102,10 +102,10 @@
         </div>
         <div class="men-women-img">
           <div>
-            <img class="" src="{{ section.settings.women-img | image_url  }}">
+            <img class="women" src="{{ section.settings.women-img | image_url  }}">
           </div>
           <div>
-            <img class="" src="{{ section.settings.men-img | image_url  }}">
+            <img class="men" src="{{ section.settings.men-img | image_url  }}">
           </div>
         </div>
     </div>
@@ -332,6 +332,12 @@
     left: 0;
     position: absolute;
     width: 35px;
+  }
+  .men{
+    width:100%;
+  }
+  .women{
+    width:100%;
   }
 </style>
 {% schema %}
