@@ -61,9 +61,9 @@ $(document).ready(function(){
 
  
 $('.our-gear-slider').slick({
-  slidesToShow: 2,
+ slidesToShow: 1,
   slidesToScroll: 1,
-  dots: true,
-  centerMode: true,
-  focusOnSelect: true
+  arrows: false,
+  fade: true,
+  asNavFor: '.slider-nav'
 });
