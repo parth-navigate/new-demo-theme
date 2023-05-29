@@ -2,7 +2,7 @@
     @font-face {
     font-family: 'ALDITH';
     src: url('ALDITHGrunge.woff2') format('woff2'),
-      url('ALDITHGrunge.ttf') format('truetype'),
+      url('https://cdn.shopify.com/s/files/1/0584/5942/2883/files/ALDITHGrunge.ttf?v=1685343852') format('truetype'),
         url('ALDITHGrunge.woff') format('woff');
 }
 @font-face {
@@ -16,7 +16,7 @@
 
 body{
 
-  font-family: "Proxima", sans-serif;
+  font-family: "ALDITH", sans-serif;
 body{
 	margin: 0;
 }
