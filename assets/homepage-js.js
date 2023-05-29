@@ -65,6 +65,6 @@ $('.our-gear-slider').slick({
   slidesToScroll: 1,
   dots: true,
   centerMode: true,
-  centerPadding: '100px',
+  centerPadding: '60px',
   focusOnSelect: true
 });
