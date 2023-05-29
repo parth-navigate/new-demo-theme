@@ -118,7 +118,7 @@
         </div>
     </div>
     <div class="kids">
-        <div>
+        <div class="kid-imge-2">
           <img class="kid" src="{{ section.settings.kids-img | image_url  }}">
         </div>
         <div class="kid-text">
@@ -438,6 +438,10 @@
 .kid:hover{
      scale:1;
     transition: 1s;
+  }
+  .kid-imge-2{
+    width: 100%;
+    overflow: auto;
   }
 </style>
 {% schema %}
