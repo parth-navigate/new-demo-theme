@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="{{ 'shopnect.css' | asset_url }}">
   {{ 'application.js' | asset_url | script_tag }}
   
-  {{ ‘slick.css' | asset_url | stylesheet_tag}}
+  
 
 </head>
 <body style="margin:0;">
@@ -76,6 +76,7 @@
   <script src="{{ 'owl.carousel.min.js' | asset_url }}" defer="defer"> </script>
   {{ 'owl.theme.default.min.css ' | asset_url |stylesheet_tag }}
   {{ 'owl.carousel.min.css' | asset_url | stylesheet_tag}}
+  {{ 'slick.css' | asset_url | stylesheet_tag}}
   <script src="{{ 'slick.min.js' | asset_url }}"></script>
   <script src="{{ 'homepage-js.js' | asset_url }}" ></script>
    {% if settings.multipulfooteroption == 'footer-1' %}
