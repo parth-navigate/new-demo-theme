@@ -61,7 +61,7 @@ $(document).ready(function(){
 
  
 $('.our-gear-slider').slick({
-  slidesToShow: 3,
+  slidesToShow: 1,
   slidesToScroll: 1,
   dots: true,
   centerMode: true,
