@@ -82,7 +82,7 @@
         </div>
         <div class="our-gear-slider  owl-carousel owl-theme" >
           {%- for block in section.blocks -%}
-            {% if block.type == "text" %}
+            {% if block.type == "0urgear-images" %}
         <div class="ourgear-slider-images">
         <div class="">
           <img class="" src="{{ block.settings.ourgear-slider-img | image_url  }}">
@@ -337,6 +337,18 @@
       {
           "type": "image_picker",
           "id": "brand-images",
+          "label": "brand img"
+          }
+
+   ]
+  },
+    {
+    "type": "0urgear-images",
+    "name": "our0gear-img",
+   "settings": [
+      {
+          "type": "image_picker",
+          "id": "ourgear-slider-img",
           "label": "brand img"
           }
 
