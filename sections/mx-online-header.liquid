@@ -92,7 +92,8 @@
           {% endfor %}
         </div>
         <div class="arrows">
-            <img class="" src="{{ section.settings.ourgear-slider-img | image_url  }}">
+            <img class="" src="{{ section.settings.left-arrow | image_url  }}">
+            <img class="" src="{{ section.settings.right-arrow | image_url  }}">
         </div>
     </div>
     </div>
@@ -338,6 +339,16 @@
       "type": "image_picker",
       "id": "hide-show-button",
       "label": "hide shoe img icon"
+    },
+        {
+      "type": "image_picker",
+      "id": "left-arrows",
+      "label": "left arrows"
+    },
+    {
+      "type": "image_picker",
+      "id": "right-arrows",
+      "label": "right arrows"
     }
     
       
