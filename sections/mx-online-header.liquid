@@ -64,7 +64,7 @@
           <p class="topbrand-text">top brands</p>
         </div>
         <div>
-          <img class="" src="{{ section.settings.hide-show-button | image_url  }}">
+          <img class="hide-show-icon" src="{{ section.settings.hide-show-button | image_url  }}">
         </div>
         <div class="brandimagesrotate">
           {%- for block in section.blocks -%}
@@ -250,6 +250,13 @@
   }
   .brandimages:hover{
     filter: brightness(0) invert(1);
+  }
+  .hide-show-icon{
+    position: absolute;
+    right: 45px;
+    top: 36px;
+    width: 60px;
+    height: 60px;
   }
 </style>
 {% schema %}
