@@ -177,47 +177,12 @@
             "settings": {
               "Rectangle444": "shopify:\/\/shop_images\/pexels-vedran-miletic-2341558.png"
             }
-          },
-          "ba51c056-65fb-40b9-9ea3-761f918c9d50": {
-            "type": "brand-images",
-            "settings": {
-              "brand-images": "shopify:\/\/shop_images\/Component_88_3.png"
-            }
-          },
-          "20c2b8fc-9da4-4a4b-a0a0-77c8957ed290": {
-            "type": "brand-images",
-            "settings": {
-              "brand-images": "shopify:\/\/shop_images\/Component_90_3.png"
-            }
-          },
-          "274f8725-7599-42db-b647-c435950be1fb": {
-            "type": "brand-images",
-            "settings": {
-              "brand-images": "shopify:\/\/shop_images\/Component_100_3.png"
-            }
-          },
-          "622f3143-b077-45ff-a73c-afcb6a764dd1": {
-            "type": "brand-images",
-            "settings": {
-              "brand-images": "shopify:\/\/shop_images\/Component_103_3.png"
-            }
-          },
-          "3b1f5fc4-1ff2-461f-9164-568ffc55e65b": {
-            "type": "brand-images",
-            "settings": {
-              "brand-images": "shopify:\/\/shop_images\/Component_104_3.png"
-            }
           }
         },
         "block_order": [
           "bf97e509-e203-4603-a745-75850492aff3",
           "f633dcc2-afd9-4764-9ae6-ca8258afcb3a",
-          "1af6ef6c-6995-4f38-8270-b05e0881f1c1",
-          "ba51c056-65fb-40b9-9ea3-761f918c9d50",
-          "20c2b8fc-9da4-4a4b-a0a0-77c8957ed290",
-          "274f8725-7599-42db-b647-c435950be1fb",
-          "622f3143-b077-45ff-a73c-afcb6a764dd1",
-          "3b1f5fc4-1ff2-461f-9164-568ffc55e65b"
+          "1af6ef6c-6995-4f38-8270-b05e0881f1c1"
         ],
         "settings": {
           "mx-online-logo": "shopify:\/\/shop_images\/Group_5369.svg",
