@@ -177,12 +177,19 @@
             "settings": {
               "Rectangle444": "shopify:\/\/shop_images\/pexels-vedran-miletic-2341558.png"
             }
+          },
+          "deada7e3-4e74-42d9-83fc-ef97e47a0d7c": {
+            "type": "brand-images",
+            "settings": {
+              "brand-images": "shopify:\/\/shop_images\/Component_88_3.png"
+            }
           }
         },
         "block_order": [
           "bf97e509-e203-4603-a745-75850492aff3",
           "f633dcc2-afd9-4764-9ae6-ca8258afcb3a",
-          "1af6ef6c-6995-4f38-8270-b05e0881f1c1"
+          "1af6ef6c-6995-4f38-8270-b05e0881f1c1",
+          "deada7e3-4e74-42d9-83fc-ef97e47a0d7c"
         ],
         "settings": {
           "mx-online-logo": "shopify:\/\/shop_images\/Group_5369.svg",
