@@ -247,7 +247,8 @@
           "uae-img": "shopify:\/\/shop_images\/Group_5429.png",
           "arrow-img": "shopify:\/\/shop_images\/Path_29758.png",
           "hide-show-button": "shopify:\/\/shop_images\/Group_8418.png",
-          "right-arrow": "shopify:\/\/shop_images\/icons8-more-than-24.png"
+          "left-arrow": "shopify:\/\/shop_images\/icons8-left-24.png",
+          "right-arrow": "shopify:\/\/shop_images\/icons8-right-24.png"
         }
       }
     },
