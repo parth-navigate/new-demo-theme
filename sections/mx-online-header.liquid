@@ -101,10 +101,10 @@
           <p class="topbrand-text">shop now</p>
         </div>
         <div class="men-women-img">
-          <div>
+          <div class="women-img">
             <img class="women" src="{{ section.settings.women-img | image_url  }}">
           </div>
-          <div>
+          <div class="men-img">
             <img class="men" src="{{ section.settings.men-img | image_url  }}">
           </div>
         </div>
@@ -349,6 +349,12 @@
   }
   .women:hover{
     scale:1;
+  }
+  .women-img{
+    width:50%;
+  }
+  .men-img{
+    width:50%;
   }
 </style>
 {% schema %}
