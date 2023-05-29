@@ -7,8 +7,8 @@
 }
 @font-face {
     font-family: "Proxima";
-    src: url("{{'ProximaNova-Bold.woff2' | asset_url}}") format("woff2"),
-        url("{{'ProximaNova-Bold.woff' | asset_url}}") format("woff");
+    src: url('ProximaNova-Bold.woff2') format("woff2"),
+        url('ProximaNova-Bold.woff' ) format("woff");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
