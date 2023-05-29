@@ -62,7 +62,7 @@ $(document).ready(function(){
  
 $('.our-gear-slider').slick({
   slidesToShow: 1,
-  slidesToScroll: 2,
+  slidesToScroll: 3,
   dots: true,
   centerMode: true,
   focusOnSelect: true
