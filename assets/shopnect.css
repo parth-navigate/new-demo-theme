@@ -7,8 +7,8 @@
 }
 @font-face {
     font-family: "Proxima";
-    src: url('ProximaNova-Bold.woff2') format("woff2"),
-        url('ProximaNova-Bold.woff' ) format("woff");
+    src: url('https://cdn.shopify.com/s/files/1/0584/5942/2883/files/ProximaNova-Bold.woff2?v=1685343438') format("woff2"),
+        url('https://cdn.shopify.com/s/files/1/0584/5942/2883/files/ProximaNova-Bold.woff?v=1685343438' ) format("woff");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
