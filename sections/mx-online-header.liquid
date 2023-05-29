@@ -80,6 +80,17 @@
         <div>
           <p class="topbrand-text">our gear</p>
         </div>
+        <div class="our-gear-slider  owl-carousel owl-theme" >
+          {%- for block in section.blocks -%}
+            {% if block.type == "text" %}
+        <div class="ourgear-slider-images">
+        <div class="">
+          <img class="" src="{{ block.settings.ourgear-slider-img | image_url  }}">
+        </div>
+        </div>
+          {% endif %}
+          {% endfor %}
+        </div>
     </div>
     </div>
   
