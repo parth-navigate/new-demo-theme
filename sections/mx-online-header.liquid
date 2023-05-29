@@ -63,7 +63,7 @@
         <div>
           <p class="topbrand-text">top brands</p>
         </div>
-        <div>
+        <div class="brandimagesrotate">
           {%- for block in section.blocks -%}
             {% if block.type == "brand-images" %}
               <div class="brandimages">
@@ -238,6 +238,10 @@
   .brandimages{
     width:33.33%;
     text-align: center;
+  }
+  .brandimagesrotate{
+    display:flex;
+    align-items: center;
   }
 </style>
 {% schema %}
