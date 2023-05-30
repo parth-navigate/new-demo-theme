@@ -293,7 +293,8 @@
           "right-arrow": "shopify:\/\/shop_images\/icons8-right-24.png",
           "women-img": "shopify:\/\/shop_images\/shutterstock_1617287977.png",
           "men-img": "shopify:\/\/shop_images\/pexels-vedran-miletic-2341561.png",
-          "kids-img": "shopify:\/\/shop_images\/Background.png"
+          "kids-img": "shopify:\/\/shop_images\/Background.png",
+          "mxo-images": "shopify:\/\/shop_images\/Background.png"
         }
       }
     },
