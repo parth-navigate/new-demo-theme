@@ -108,6 +108,5 @@ $('.featuredslider').slick({
         slidesToShow: 3
       }
     }
-    }
   ]
 });
