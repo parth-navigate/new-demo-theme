@@ -134,7 +134,7 @@
               <div class="featuredimages">
             <img class="featured-img" src="{{ block.settings.featured-images | image_url  }}">
                 <div class="blanck">
-                  <p class="">sale</p>
+                  <p class="fetured-sale-text-2">sale</p>
                 </div>
                 <div>
                   <p class="fetured-sale-text">sale</p>
@@ -463,6 +463,15 @@
     overflow: auto;
   }
   .fetured-sale-text{
+    margin: 0;
+    position: absolute;
+    top: 0;
+    font-size: 41px;
+    color: white;
+    transform: translate(0px, 0px);
+    transition-duration: 1s;
+  }
+  .fetured-sale-text-2{
     margin: 0;
     position: absolute;
     top: 0;
