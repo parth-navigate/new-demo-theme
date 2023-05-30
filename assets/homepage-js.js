@@ -74,10 +74,10 @@ $(document).ready(function(){
   $(".featuredslider").owlCarousel({
   	items:1,
   	loop:false,
-  	nav:true,
+  	nav:false,
     autoplay:true,
     slideSpeed:300,
-    dots:false,
+    dots:true,
     center:true,
   	responsiveClass:true,
     responsive:{
