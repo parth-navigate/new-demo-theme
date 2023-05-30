@@ -70,25 +70,52 @@ $('.our-gear-slider').slick({
     arrows: true
 });
 
-$(document).ready(function(){
-  $(".featuredslider").owlCarousel({
-  	items:1,
-  	loop:false,
-  	nav:false,
-    autoplay:false,
-    slideSpeed:300,
-    dots:true,
-    margin:25,
-    center:true,
-  	responsiveClass:true,
-    responsive:{
-        767:{
-        	items:1
-        },
-        1080:{
-        	items:4
-        }
+// $(document).ready(function(){
+//   $(".featuredslider").owlCarousel({
+//   	items:1,
+//   	loop:false,
+//   	nav:false,
+//     autoplay:false,
+//     slideSpeed:300,
+//     dots:true,
+//     margin:25,
+//     center:true,
+//   	responsiveClass:true,
+//     responsive:{
+//         767:{
+//         	items:1
+//         },
+//         1080:{
+//         	items:4
+//         }
 
+//     }
+//   });
+// });
+
+
+$('.featuredslider').slick({
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 3,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
     }
-  });
+  ]
 });
