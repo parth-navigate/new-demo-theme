@@ -104,6 +104,7 @@ $('.featuredslider').slick({
       settings: {
         arrows: true,
         centerMode: true,
+        margin:20,
         centerPadding: '40px',
         slidesToShow: 3
       }
