@@ -78,7 +78,7 @@ $(document).ready(function(){
     autoplay:true,
     slideSpeed:300,
     dots:true,
-    margin:10,
+    margin:25,
     center:true,
   	responsiveClass:true,
     responsive:{
