@@ -130,9 +130,9 @@
         <div>
           <div class="featuredslider owl-carousel owl-theme ">
           {%- for block in section.blocks -%}
-            {% if block.type == "brand-images" %}
-              <div class="brandimages">
-            <img class="" src="{{ block.settings.brand-images | image_url  }}">
+            {% if block.type == "featured-slider-images" %}
+              <div class="featuredimages">
+            <img class="" src="{{ block.settings.featured-images | image_url  }}">
               </div>
             {% endif %}
           {% endfor %}
@@ -553,6 +553,18 @@
           "type": "image_picker",
           "id": "ourgear-slider-img",
           "label": "brand img"
+          }
+
+   ]
+  },
+  {
+    "type": "featured-slider-images",
+    "name": "featured-img",
+   "settings": [
+      {
+          "type": "image_picker",
+          "id": "featured-images",
+          "label": "featured slider img"
           }
 
    ]
