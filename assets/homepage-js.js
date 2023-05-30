@@ -69,3 +69,25 @@ $('.our-gear-slider').slick({
   focusOnSelect: true,
     arrows: true
 });
+
+$(document).ready(function(){
+  $(".featuredslider").owlCarousel({
+  	items:1,
+  	loop:false,
+  	nav:true,
+    autoplay:true,
+    slideSpeed:300,
+    dots:false,
+    center:true,
+  	responsiveClass:true,
+    responsive:{
+        767:{
+        	items:1
+        },
+        1080:{
+        	items:1
+        }
+
+    }
+  });
+});
