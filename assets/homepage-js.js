@@ -98,9 +98,8 @@ $('.featuredslider').slick({
   centerMode: true,
   centerPadding: '60px',
   slidesToShow: 3,
-  
-        arrows: true,
-        dots:true,
+  arrows: true,
+  dots:true,
   responsive: [
     {
       breakpoint: 1080,
