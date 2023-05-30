@@ -588,7 +588,17 @@
 .featuredimages:hover .overlay{
   display:block;
 }
-
+.featuredimages:hover .fetured-sale-text::after{
+  ontent: "";
+    width: 20px;
+    height: 3px;
+    background: #c9fc13;
+    position: absolute;
+    bottom: -11px;
+    left: 15px;
+    right: 0;
+    transition: width 0.5s;
+}
 
 </style>
 {% schema %}
