@@ -135,7 +135,7 @@
           {%- for block in section.blocks -%}
             {% if block.type == "featured-slider-images" %}
               <div class="featuredimages">
-              <div id="overlay"></div>
+              <div class="overlay"></div>
             <img class="featured-img" src="{{ block.settings.featured-images | image_url  }}">
                 <div class="blanck">
                   <p class="fetured-sale-text-2">sale</p>
@@ -572,7 +572,7 @@
     right: 0;
     margin: auto;
 }
-#overlay {
+.overlay {
   position: absolute;
   display: none;
   width: 100%;
@@ -585,7 +585,7 @@
   z-index: 2;
   cursor: pointer;
 }
-.featuredimages:hover #overlay{
+.featuredimages:hover .overlay{
   display:block;
 }
 </style>
