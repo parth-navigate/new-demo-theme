@@ -134,7 +134,7 @@
               <div class="featuredimages">
             <img class="" src="{{ block.settings.featured-images | image_url  }}">
                 <div>
-                  <p>sale</p>
+                  <p class="fetured-sale-text">sale</p>
                 </div>
               </div>
             {% endif %}
@@ -458,6 +458,13 @@
   .kid-imge-2{
     width: 100%;
     overflow: auto;
+  }
+  .fetured-sale-text{
+    margin: 0;
+    position: absolute;
+    top: 0;
+    font-size: 41px;
+    color: white;
   }
 </style>
 {% schema %}
