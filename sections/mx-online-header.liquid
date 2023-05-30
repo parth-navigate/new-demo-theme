@@ -561,18 +561,7 @@
     bottom: 50px;
     left: 12%;
   }
-   .fetured-sale-text:hover{
-    
-    width: 53px;
-    height: 4px;
-    background: #c9fc13;
-    position: absolute;
-    bottom: -12px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    }
-   .commyunity-text::after {
+.commyunity-text::after {
    content: "";
     width: 53px;
     height: 4px;
@@ -599,6 +588,30 @@
 .featuredimages:hover .overlay{
   display:block;
 }
+    .fetured-sale-text:hover::after { 
+     content: "";
+    width: 100%;
+    height: 4px;
+    background: #c9fc13;
+    position: absolute;
+    bottom: -11px;
+    left: 0;
+    right: 0;
+    max-width: 20px;
+    margin: auto;
+}
+.fetured-sale-text::after { 
+     content: "";
+    width: 20px;
+    height: 3px;
+    background: #c9fc13;
+    position: absolute;
+    bottom: -11px;
+    left: 15px;
+    right: 0;
+    transition: width 0.5s;
+}
+
 </style>
 {% schema %}
   {
