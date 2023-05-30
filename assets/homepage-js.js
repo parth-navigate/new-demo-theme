@@ -103,6 +103,7 @@ $('.featuredslider').slick({
       breakpoint: 1080,
       settings: {
         arrows: true,
+        dots:true,
         centerMode: true,
         margin:20,
         centerPadding: '40px',
