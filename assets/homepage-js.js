@@ -65,6 +65,10 @@ $(document).ready(function(){
   $(".menu-close-icon").click(function() {
       $(".fixed-desktop-menu").hide();
   });
+  $(".hide-show-icon").click(function() {
+      $(".fixed-desktop-menu").toggleClass("active");
+  });
+
 });
 
  
