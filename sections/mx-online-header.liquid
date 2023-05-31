@@ -226,9 +226,7 @@
             </div>
         </div>
     </div>
-    <div class="upcoming-event-img">
-        <img class="upcoming-event" src="{{ section.settings.up-coming-images | image_url  }}">
-    </div>
+    
     <div class="upcoming-events">
         <h2 class="topbrand-text">upcoming events</h2>
       <img class="pin-img" src="{{ section.settings.pin-images | image_url  }}">
@@ -300,7 +298,7 @@
   }
   .upcoming-events{
     text-align: center;
-    background-image: url("{{ section.settings }}");
+    background-image: url("{{ section.settings.up-coming-images | image_url  }}");
 
   /* Set a specific height */
   min-height: 500px; 
