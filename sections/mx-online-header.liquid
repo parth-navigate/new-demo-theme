@@ -717,6 +717,17 @@ height: 100%;
   .vip-club-explore{
   font-size:20px;
 }
+  .vip-club-explore::after { 
+     content: "";
+    width: 20px;
+    height: 3px;
+    background: #c9fc13;
+    position: absolute;
+    bottom: -11px;
+    left: 15px;
+    right: 0;
+    transition: width 0.5s;
+}
 </style>
 {% schema %}
   {
