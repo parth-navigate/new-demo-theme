@@ -226,6 +226,7 @@
     </div>
     <div class="upcoming-events">
         <h2>upcoming events</h2>
+      <img class="pin-img" src="{{ section.settings.pin-images | image_url  }}">
     </div>
    </div>
 </div>
@@ -994,6 +995,11 @@
 "type": "image_picker",
 "id": "up-coming-images",
 "label": "up coming img"
+},
+{
+"type": "image_picker",
+"id": "pin-images",
+"label": "pin img"
 }
 
 
