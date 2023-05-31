@@ -57,7 +57,15 @@ $(document).ready(function(){
     }
   });
 });
-
+// Fixed menu menu 
+$(document).ready(function(){
+  $(".menu-icon").click(function() {
+      $(".fixed-desktop-menu").show();
+  });
+  $(".menu-close-icon").click(function() {
+      $(".fixed-desktop-menu").hide();
+  });
+});
 
  
 $('.our-gear-slider').slick({
