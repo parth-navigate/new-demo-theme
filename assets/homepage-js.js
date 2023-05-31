@@ -66,7 +66,7 @@ $(document).ready(function(){
       $(".fixed-desktop-menu").hide();
   });
   $(".hide-show-icon").click(function() {
-      $(".fixed-desktop-menu").toggleClass("active");
+      $(".brandimagesrotate").toggleClass("active");
   });
 
 });
