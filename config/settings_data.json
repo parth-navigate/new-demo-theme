@@ -338,7 +338,8 @@
           "moto-zone-images": "shopify:\/\/shop_images\/shutterstock_756414517.png",
           "moto-zone-images-2": "shopify:\/\/shop_images\/Group_5369.svg",
           "up-coming-images": "shopify:\/\/shop_images\/shutterstock_756414517.png",
-          "pin-images": "shopify:\/\/shop_images\/pin.png"
+          "pin-images": "shopify:\/\/shop_images\/pin.png",
+          "footer-logo": "shopify:\/\/shop_images\/Group_5369.svg"
         }
       }
     },
