@@ -256,12 +256,17 @@
     </div>
       <div class="footer">
           <div>
-            <p>brand</p>
-            <p>new</p>
-            <p>sale</p>
-            <p>events</p>
-            <p>shop</p>
-            <p>become a delar</p>
+              <div>
+                <p>brand</p>
+                <p>new</p>
+                <p>sale</p>
+                <p>events</p>
+                <p>shop</p>
+                <p>become a delar</p>
+              </div>
+              <div>
+                <img class="" src="{{ section.settings.footer-logo | image_url  }}">
+              </div>
           </div>
     </div>
    </div>
@@ -1101,6 +1106,11 @@
 "type": "image_picker",
 "id": "pin-images",
 "label": "pin img"
+},
+{
+"type": "image_picker",
+"id": "footer-logo",
+"label": "footer img"
 }
 
 
