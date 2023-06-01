@@ -425,7 +425,7 @@
    }
    .kid-imge-2{
    width: 100%;
-   overflow: auto;
+   overflow: hiddin;
    }
    .fetured-sale-text{
    margin: 0;
