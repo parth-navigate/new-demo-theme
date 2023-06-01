@@ -780,7 +780,7 @@
 }
 .featuredslider.owl-theme .owl-nav [class*=owl-]:hover {
     background: transparent;
-    color: #FFF;
+    color: black;
     text-decoration: none;
 }
 @media only screen and (max-width: 500px){
