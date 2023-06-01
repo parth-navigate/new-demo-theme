@@ -789,4 +789,7 @@
     width: 45px;
     height: 45px;
   }
+  .topbrand-text:after{
+    bottom:23%;
+  }
 }
