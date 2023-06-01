@@ -119,7 +119,7 @@ $(document).ready(function(){
   $(".featuredslider").owlCarousel({
   	items:1,
   	loop:false,
-  	nav:false,
+  	nav:true,
     autoplay:false,
     slideSpeed:300,
     dots:true,
