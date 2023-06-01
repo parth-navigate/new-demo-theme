@@ -268,15 +268,18 @@
                 <img class="footer-logos-img" src="{{ section.settings.footer-logo | image_url  }}">
               </div>
               <div>
-                <img class="" src="{{ section.settings.whatsapp-logo | image_url  }}">
-                <img style="width:20px;" class="" src="{{ section.settings.livechat-logo | image_url  }}">
-                <img class="" src="{{ section.settings.email-logo | image_url  }}">
+                <img class="footer-socialmedia-logo" src="{{ section.settings.whatsapp-logo | image_url  }}">
+                <img style="width:20px;" class="footer-socialmedia-logo" src="{{ section.settings.livechat-logo | image_url  }}">
+                <img class="footer-socialmedia-logo" src="{{ section.settings.email-logo | image_url  }}">
               </div>
           </div>
     </div>
    </div>
 </div>
 <style>
+  .footer-socialmedia-logo{
+    margin-right:10px;
+  }
   .footer-all-brand-text{
     margin-right: 16px;
     font-size: 21px;
