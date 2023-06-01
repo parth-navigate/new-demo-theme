@@ -805,4 +805,7 @@
   .section-1, .section-2{
     width:100%;
   }
+  .footer-brand-text{
+    display:block;
+  }
 }
