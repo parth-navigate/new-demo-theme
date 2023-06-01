@@ -798,5 +798,7 @@
   .women-img, .men-img {
     width: 100%;
   }
-  
+  .featuredslider{
+    width: 25% !important;
+  }
 }
