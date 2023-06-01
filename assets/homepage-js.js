@@ -79,7 +79,16 @@ $('.our-gear-slider').slick({
   centerMode: true,
   centerPadding: '200px',
   focusOnSelect: true,
-    arrows: true
+    arrows: true,
+    responsive: [
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
 });
 
 // $(document).ready(function(){
