@@ -792,4 +792,8 @@
   .topbrand-text:after{
     bottom:23%;
   }
+  .men-women-img{
+    display:block;
+  }
+  
 }
