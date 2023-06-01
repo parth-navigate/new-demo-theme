@@ -87,7 +87,7 @@ $('.our-gear-slider').slick({
         centerMode: true,
         margin:7,
         centerPadding: '10px',
-        slidesToScroll: 2,
+        slidesToScroll: 3,
         slidesToShow: 1
       }
     }
