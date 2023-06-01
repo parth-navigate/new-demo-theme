@@ -799,6 +799,7 @@
     width: 100%;
   }
   .featuredimages{
-    width: 25% !important;
+    width: 85% !important;
+    margin:auto;
   }
 }
