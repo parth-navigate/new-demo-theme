@@ -125,7 +125,7 @@ $('.featuredslider').slick({
     {
       breakpoint: 375,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 4
       }
     }
