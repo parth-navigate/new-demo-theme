@@ -339,7 +339,10 @@
           "moto-zone-images-2": "shopify:\/\/shop_images\/Group_5369.svg",
           "up-coming-images": "shopify:\/\/shop_images\/shutterstock_756414517.png",
           "pin-images": "shopify:\/\/shop_images\/pin.png",
-          "footer-logo": "shopify:\/\/shop_images\/Group_5369.svg"
+          "footer-logo": "shopify:\/\/shop_images\/Group_5369.svg",
+          "email-logo": "shopify:\/\/shop_images\/mail.png",
+          "whatsapp-logo": "shopify:\/\/shop_images\/whatsapp.png",
+          "livechat-logo": "shopify:\/\/shop_images\/Live_Chat.png"
         }
       }
     },
