@@ -769,12 +769,14 @@
     position: absolute;
     left: 32%;
     bottom: 15px;
+  color:black;
 }
 .featuredslider.owl-carousel .owl-nav button.owl-next{
     font-size: 80px;
     position: absolute;
     right: 32%;
     bottom: 15px;
+    color:black;
 }
 @media only screen and (max-width: 500px){
 	/* For mobile phone */
