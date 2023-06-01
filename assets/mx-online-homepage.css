@@ -848,4 +848,11 @@
   .Rectangle444-slider{
     height:100%;
   }
+  .uaes-img {
+    width: 50%;
+    position: absolute;
+    bottom: 12%;
+    left: unset;
+    right: 14px;
+}
 }
