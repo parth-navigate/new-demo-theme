@@ -765,7 +765,10 @@
     width:100%;
   }
 .featuredslider.owl-carousel .owl-nav button.owl-prev{
-  font-size:30px;
+    font-size: 80px;
+    position: absolute;
+    left: 32%;
+    bottom: 15px;
 }
 @media only screen and (max-width: 500px){
 	/* For mobile phone */
