@@ -856,4 +856,7 @@
 .footer-child{
   display:block;
 }
+.footer-all-brand-text{
+  display:inline-block;
+}
 }
