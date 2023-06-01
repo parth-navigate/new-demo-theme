@@ -86,7 +86,8 @@ $('.our-gear-slider').slick({
       settings: {
         centerMode: true,
         margin:20,
-        centerPadding: '40px',
+        centerPadding: '10px',
+        slidesToScroll: 2,
         slidesToShow: 1
       }
     }
