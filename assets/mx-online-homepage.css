@@ -1,16 +1,3 @@
-@media only screen and (max-width: 500px){
-	/* For mobile phone */
-  .header-desktopmenu{
-    display:none;
-  }
-  .container{
-    margin:10px;
-  }
-  .footer1logo{
-    width:100px;
-  }
-}
-
 .footer-socialmedia-logo:hover{
     background:#cafd0a;
   }
@@ -778,3 +765,15 @@
     width:100%;
   }
 
+@media only screen and (max-width: 500px){
+	/* For mobile phone */
+  .header-desktopmenu{
+    display:none;
+  }
+  .container{
+    margin:10px;
+  }
+  .footer1logo{
+    width:100px;
+  }
+}
