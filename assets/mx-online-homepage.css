@@ -770,4 +770,7 @@
   .header-desktopmenu{
     display:none;
   }
+  .container{
+    margin:10px;
+  }
 }
