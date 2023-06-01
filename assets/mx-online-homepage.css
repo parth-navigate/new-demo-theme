@@ -80,9 +80,6 @@
   }
   .upcoming-events{
     text-align: center;
-    
-
- 
   /* The image used */
   background-image: url("{{ section.settings.up-coming-images | image_url  }}");
 
