@@ -841,4 +841,8 @@
   .featuredslider.owl-carousel .owl-nav button.owl-prev{
     left:-2%;
   }
+  .slide-banner{
+    width:414px;
+    height:480px;
+  }
 }
