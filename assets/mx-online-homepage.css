@@ -860,4 +860,7 @@
 .footer-all-brand-text{
   display:inline-block;
 }
+.footer-brand-text{
+  display:unset;
+}
 }
