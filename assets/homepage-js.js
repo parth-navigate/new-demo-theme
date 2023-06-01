@@ -82,7 +82,7 @@ $('.our-gear-slider').slick({
     arrows: true
   responsive: [
     {
-      breakpoint: 500,
+      breakpoint: 375,
       settings: {
         centerMode: true,
         margin:20,
