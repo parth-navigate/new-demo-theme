@@ -123,7 +123,7 @@ $('.featuredslider').slick({
   dots:true,
   responsive: [
     {
-      breakpoint: 480,
+      breakpoint: 375,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1
