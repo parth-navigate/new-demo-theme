@@ -836,9 +836,9 @@
     font-size:27px;
   }
   .featuredslider.owl-carousel .owl-nav button.owl-next{
-    right:-5%;
+    right:-2%;
   }
   .featuredslider.owl-carousel .owl-nav button.owl-prev{
-    left:-1%;
+    left:-2%;
   }
 }
