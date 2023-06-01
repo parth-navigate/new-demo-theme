@@ -257,12 +257,12 @@
       <div class="footer">
           <div class="footer-child">
               <div class="footer-brand-text">
-                <p>brand</p>
-                <p>new</p>
-                <p>sale</p>
-                <p>events</p>
-                <p>shop</p>
-                <p>become a delar</p>
+                <p class="footer-all-brand-text">brand</p>
+                <p class="footer-all-brand-text">new</p>
+                <p class="footer-all-brand-text">sale</p>
+                <p class="footer-all-brand-text">events</p>
+                <p class="footer-all-brand-text">shop</p>
+                <p class="footer-all-brand-text">become a delar</p>
               </div>
               <div>
                 <img class="footer-logos-img" src="{{ section.settings.footer-logo | image_url  }}">
@@ -277,6 +277,9 @@
    </div>
 </div>
 <style>
+  .footer-all-brand-text{
+    margin-right:10px;
+  }
   .footer-brand-text{
     display: flex;
     align-items: center;
