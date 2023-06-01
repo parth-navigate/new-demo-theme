@@ -853,4 +853,7 @@
     left: unset;
     right: 14px;
 }
+.footer-child{
+  display:block;
+}
 }
