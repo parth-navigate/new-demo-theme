@@ -835,4 +835,7 @@
   .commyunity-text{
     font-size:27px;
   }
+  .featuredslider.owl-carousel .owl-nav button.owl-next{
+    right:-5%;
+  }
 }
