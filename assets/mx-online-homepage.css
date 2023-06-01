@@ -764,7 +764,9 @@
   .upcoming-event{
     width:100%;
   }
-
+.featuredslider .owl-prev{
+  font-size:30px;
+}
 @media only screen and (max-width: 500px){
 	/* For mobile phone */
   .header-desktopmenu{
