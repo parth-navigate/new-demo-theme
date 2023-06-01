@@ -85,7 +85,7 @@ $('.our-gear-slider').slick({
       breakpoint: 375,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 3
       }
     }
   ]
