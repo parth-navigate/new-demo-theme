@@ -779,4 +779,8 @@
   .brandimages{
     width:49.33%;
   }
+  .topbrand-text{
+    font: 31px/50px ALDITH;
+    padding-bottom:35px;
+  }
 }
