@@ -795,5 +795,8 @@
   .men-women-img{
     display:block;
   }
+  .women-img, .men-img {
+    width: 100%;
+  }
   
 }
