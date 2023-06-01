@@ -91,44 +91,44 @@ $('.our-gear-slider').slick({
   ]
 });
 
-// $(document).ready(function(){
-//   $(".featuredslider").owlCarousel({
-//   	items:1,
-//   	loop:false,
-//   	nav:false,
-//     autoplay:false,
-//     slideSpeed:300,
-//     dots:true,
-//     margin:25,
-//     center:true,
-//   	responsiveClass:true,
-//     responsive:{
-//         767:{
-//         	items:1
-//         },
-//         1080:{
-//         	items:4
-//         }
+$(document).ready(function(){
+  $(".featuredslider").owlCarousel({
+  	items:1,
+  	loop:false,
+  	nav:false,
+    autoplay:false,
+    slideSpeed:300,
+    dots:true,
+    margin:25,
+    center:true,
+  	responsiveClass:true,
+    responsive:{
+        767:{
+        	items:1
+        },
+        1080:{
+        	items:4
+        }
 
-//     }
-//   });
-// });
-
-
-$('.featuredslider').slick({
-  centerMode: true,
-  centerPadding: '60px',
-  slidesToShow: 3,
-  arrows: true,
-  dots:true,
-  responsive: [
-    {
-      breakpoint: 375,
-      settings: {
-        centerMode: false,
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
     }
-  ]
+  });
 });
+
+
+// $('.featuredslider').slick({
+//   centerMode: true,
+//   centerPadding: '60px',
+//   slidesToShow: 3,
+//   arrows: true,
+//   dots:true,
+//   responsive: [
+//     {
+//       breakpoint: 375,
+//       settings: {
+//         centerMode: false,
+//         slidesToShow: 1,
+//         slidesToScroll: 1
+//       }
+//     }
+//   ]
+// });
