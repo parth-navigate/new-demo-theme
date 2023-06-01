@@ -82,7 +82,7 @@ $('.our-gear-slider').slick({
     arrows: true,
     responsive: [
     {
-      breakpoint: 300,
+      breakpoint: 480,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1
