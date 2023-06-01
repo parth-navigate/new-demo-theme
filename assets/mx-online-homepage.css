@@ -783,4 +783,10 @@
     font: 31px/50px ALDITH;
     padding-bottom:35px;
   }
+  .hide-show-icon{
+    right: 23px;
+    top: 36px;
+    width: 45px;
+    height: 45px;
+  }
 }
