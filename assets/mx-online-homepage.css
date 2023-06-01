@@ -80,7 +80,11 @@
   }
   .upcoming-events{
     text-align: center;
-    background-image: url("{{ section.settings.up-coming-images | image_url  }}");
+    
+
+ 
+  /* The image used */
+  background-image: url("{{ section.settings.up-coming-images | image_url  }}");
 
   /* Set a specific height */
   min-height: 500px; 
