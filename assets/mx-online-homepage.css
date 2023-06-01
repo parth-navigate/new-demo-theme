@@ -778,6 +778,11 @@
     bottom: 0;
     color:black;
 }
+.featuredslider.owl-theme .owl-nav [class*=owl-]:hover {
+    background: transparent;
+    color: #FFF;
+    text-decoration: none;
+}
 @media only screen and (max-width: 500px){
 	/* For mobile phone */
   .header-desktopmenu{
