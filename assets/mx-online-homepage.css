@@ -800,6 +800,7 @@
   .topbrand-text{
     font: 31px/50px ALDITH;
     padding-bottom:35px;
+    padding-top:0;
   }
   .hide-show-icon{
     right: 23px;
