@@ -85,7 +85,7 @@ $('.our-gear-slider').slick({
       breakpoint: 375,
       settings: {
         centerMode: true,
-        margin:20,
+        margin:7,
         centerPadding: '10px',
         slidesToScroll: 2,
         slidesToShow: 1
