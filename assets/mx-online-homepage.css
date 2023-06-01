@@ -80,7 +80,7 @@
   }
   .upcoming-events{
     text-align: center;
-  background-image: url("{{ section.settings.up-coming-images | image_url  }}");
+  background-image: url("shutterstock_756414517.png");
   }
   .pin-img{
     width:70px;
