@@ -114,7 +114,7 @@ $('.featuredslider').slick({
   dots:true,
   responsive: [
     {
-      breakpoint: 1080,
+      breakpoint: 400,
       settings: {
         centerMode: true,
         margin:20,
