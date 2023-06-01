@@ -72,24 +72,48 @@ $(document).ready(function(){
 });
 
  
-$('.our-gear-slider').slick({
-  slidesToShow: 1,
-  slidesToScroll: 2,
-  dots: true,
-  centerMode: true,
-  centerPadding: '200px',
-  focusOnSelect: true,
-    arrows: true,
-    responsive: [
-    {
-      breakpoint: 375,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 3
-      }
+// $('.our-gear-slider').slick({
+//   slidesToShow: 1,
+//   slidesToScroll: 2,
+//   dots: true,
+//   centerMode: true,
+//   centerPadding: '200px',
+//   focusOnSelect: true,
+//     arrows: true,
+//     responsive: [
+//     {
+//       breakpoint: 375,
+//       settings: {
+//         slidesToShow: 1,
+//         slidesToScroll: 3
+//       }
+//     }
+//   ]
+// });
+
+$(document).ready(function(){
+  $(".our-gear-slider").owlCarousel({
+  	items:1,
+  	loop:false,
+  	nav:false,
+    autoplay:false,
+    slideSpeed:300,
+    dots:true,
+    margin:25,
+    center:true,
+  	responsiveClass:true,
+    responsive:{
+        767:{
+        	items:1
+        },
+        1080:{
+        	items:3
+        }
+
     }
-  ]
+  });
 });
+
 
 $(document).ready(function(){
   $(".featuredslider").owlCarousel({
