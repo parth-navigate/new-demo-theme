@@ -1,0 +1,766 @@
+.footer-socialmedia-logo:hover{
+    background:#cafd0a;
+  }
+  .footer-all-brand-text:hover{
+    color:#cafd0a;
+  }
+  .footer-socialmedia-logo{
+    margin-right: 20px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 22px;
+  }
+  .footer-all-brand-text{
+    margin-right: 16px;
+    font-size: 21px;
+    font-weight: 600;
+  }
+  .footer-brand-text{
+    display: flex;
+    align-items: center;
+    color:white;
+    justify-content: center;
+  }
+  .protactivegear{
+    text-align: center;
+  }
+  .footer-child{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1180px;
+    margin: auto;
+    border-bottom: 1px solid white;
+  }
+  .footer{
+    background:black;
+  }
+  .footer-logos-img{
+    width:150px;
+    height:150px;
+  }
+  .fixed-desktop-menu{
+    display:none;
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background:#000;
+  }
+  .counting-day{
+        margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+    color: #cbfe0a;
+  }
+  .day-section{
+    margin-right:20px;
+        text-align: center;
+  }
+  .date-time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+  .commening-text{
+        font-size: 50px;
+    margin-top: 4px;
+    font-weight: 900;
+    color: #cafd0a;
+  }
+  .mx-freestyle{
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom:0;
+  }
+  .upcoming-events{
+    text-align: center;
+    background-image: url("{{ section.settings.up-coming-images | image_url  }}");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .pin-img{
+    width:70px;
+    height:70px;
+  }
+   .charity-text{
+   position: relative;
+   }
+   @font-face {
+   font-family: 'ALDITHGrunge';
+   src: url('../Assets/ALDITHGrunge.woff2') format('woff2');
+   src: url('../Assets/ALDITHGrunge.woff') format('woff');
+   }
+   .charity-img{
+   width:100%
+   }
+   .mxo{
+   width:100%;
+   }
+   .style-arrow{
+   color: #cafd13;
+   }
+   .slider{
+   potition:relative;
+   }
+   .uaes-img{
+   width: 30%;
+   position: absolute;
+   bottom: 12%;
+   left: 7%;
+   }
+   .UAE-img{
+   width:80%;
+   }
+   .shopnow-button-2{
+   margin-top:25px;
+   }
+   .shopnow-2{
+   color: white;
+   font-size: 23px;
+   font-weight: 700;
+   transition:  0.5s;
+   }
+   .container{
+   display: flex;
+   align-items: start;
+   justify-content: space-between;
+   max-width:1200px;
+   margin:auto;
+   margin-top:20px;
+   }
+   .mx-header .list-style{
+   padding-left:19px;
+   }
+   .mx-header .linktext{
+   text-transform: uppercase;
+   color: white;
+   }
+   .mx-header{
+   position: absolute;
+   z-index: 2;
+   width:100%;
+   }
+   .parent{
+   position: relative;
+   }
+   .signin-button{
+   border: 2px solid #c9fd0e;
+   padding: 3px 15px;
+   border-radius: 27px;
+   color: white;
+   margin-right:4px;
+   }
+   .header-bar-icon{
+   width:25px;
+   vertical-align: middle;
+   margin-right:4px;
+   }
+   .header-desktopmenu{
+   margin-left:21%;
+   }
+   .mx-header .linktext:hover::after { 
+   content: "";
+   width: 100%;
+   height: 4px;
+   background: #c9fc13;
+   position: absolute;
+   bottom: -11px;
+   left: 0;
+   right: 0;
+   max-width: 20px;
+   margin: auto;
+   }
+   .shopnow-2::after { 
+   content: "";
+   width: 20px;
+   height: 3px;
+   background: #c9fc13;
+   position: absolute;
+   bottom: -11px;
+   left: 15px;
+   right: 0;
+   transition: width 0.5s;
+   }
+   .shopnow-2:hover .left-arrow::after{
+   content: " > ";
+   color:white;
+   }
+   .shopnow-2.left-arrow::after{
+   content: "";
+   transition: width 7s;
+   }
+   .shopnow-2:hover .left-arrow::before{
+   content: " > ";
+   color:#c9fc13;
+   }
+   .shopnow-2:hover::after{
+   width:40%;
+   }
+   .shopnow-2:hover{
+   color:black;
+   font-size:26px;
+   } 
+   .mx-banner .owl-nav{
+   font-size:65px;
+   }
+   .mx-banner .owl-prev{
+   position: absolute;
+   bottom:50%;
+   left:30px;
+   }
+   .mx-banner .owl-next{
+   position: absolute;
+   bottom:50%;
+   right:30px;
+   }
+   .mx-banner .owl-nav [class*=owl-]:hover {
+   background: transparent;
+   color: #FFF;
+   text-decoration: none;
+   }
+   .mx-banner.owl-carousel .owl-nav button.owl-prev{
+   color:white;
+   }
+   .mx-banner.owl-carousel .owl-nav button.owl-next{
+   color:white;
+   }
+   .top-brand-images{
+   background: #F0F0F0;
+   position: relative;
+     padding-bottom:100px;
+   }
+   .topbrand-text{
+   text-align: center;
+   font: normal normal normal 50px/50px ALDITH;
+   letter-spacing: 0px;
+   color: #000000;
+   text-transform: uppercase;
+   opacity: 1;
+   margin: 0;
+   padding-top: 42px;
+   padding-bottom:84px;
+   position: relative;
+   }
+   .brandimages{
+   width:19.33%;
+   text-align: center;
+     padding-bottom:20px;
+   }
+   .brandimagesrotate{
+   display:flex;
+   align-items: center;
+   
+     flex-wrap:wrap;
+     height:115px;
+     overflow:hidden;
+   }
+  .active.brandimagesrotate{
+
+     height:100%;
+   }
+   .brandimages:hover{
+   filter: brightness(0) invert(1);
+   }
+   .hide-show-icon{
+   position: absolute;
+   right: 45px;
+   top: 36px;
+   width: 60px;
+   height: 60px;
+   }
+   .topbrand-text::after {
+   content: "";
+   width: 50px;
+   height: 5px;
+   background: #c9fc13;
+   position: absolute;
+   bottom: 37%;
+   left: 0;
+   right: 0;
+   margin: auto;
+   }
+   .our-gear-slider.owl-carousel .owl-nav button.owl-prev{
+   font-size: 29px;
+   position: absolute;
+   left: -5px;
+   width: 31px;
+   background: black;
+   color: white;
+   height: auto;
+   bottom: -37px;
+   }
+   .our-gear-slider.owl-carousel .owl-nav button.owl-next{
+   font-size: 29px;
+   position: absolute;
+   right: -5px;
+   width: 31px;
+   background: black;
+   color: white;
+   height: auto;
+   bottom: -37px;
+   }
+   .our-gear-slider{
+   margin-bottom:100px
+   }
+   .ourgear-slider-img{
+   width:87%;
+   margin:auto;
+   }
+   .arrows{
+   position:relative;
+   }
+   .right-arrows{
+   position: absolute;
+   bottom: 0px;
+   right: 0;
+   width:35px;
+   }
+   .left-arrows{
+   bottom: 0px;
+   left: 0;
+   position: absolute;
+   width: 35px;
+   }
+   .men{
+   width:100%;
+   scale: 1.1;
+   }
+   .women{
+   width:100%;
+   scale: 1.1;
+   }
+   .men-women-img{
+   display:flex;
+   }
+   .men:hover{
+   scale:1;
+   transition: 1s;
+   }
+   .women:hover{
+   scale:1;
+   transition: 1s;
+   }
+   .women-img{
+   width:50%;
+   overflow: hidden;
+   position: relative;
+   }
+   .men-img{
+   width:50%;
+   overflow: hidden;
+   position: relative;
+   }
+   .women-text{
+   position: absolute;
+   top: 47%;
+   left: 31%;
+   }
+   .men-text{
+   position: absolute;
+   top: 47%;
+   right: 36%;
+   }
+   .women-text-1{
+   text-align: center;
+   font: normal normal normal 80px/50px ALDITH;
+   letter-spacing: 0px;
+   color: #FFFFFF;
+   opacity: 1;
+   margin: 0;
+   }
+   .explore-text{
+   text-align: center;
+   font: normal normal 300 25px/50px Proxima Nova;
+   letter-spacing: 0px;
+   color: #FFFFFF;
+   opacity: 1;
+   margin: 0;
+   text-transform: uppercase;
+   }
+   .explore-text::after { 
+   content: "";
+   width: 20px;
+   height: 3px;
+   background: #c9fc13;
+   position: absolute;
+   bottom: 6px;
+   left: 42%;
+   right: 0;
+   transition: width 0.5s;
+   }
+   .women-img:hover .explore-text::after {
+   width:30%;
+   }
+   .men-img:hover .explore-text::after {
+   width:53%;
+   }
+   .kid{
+   width:100%;
+   scale:1.1;
+   }
+   .kids{
+   position: relative;
+   }
+   .kid-text {
+   position: absolute;
+   top: 47%;
+   right: 42%;
+   }
+   .kid:hover{
+   scale:1;
+   transition: 1s;
+   }
+   .kid-imge-2{
+   width: 100%;
+   overflow: auto;
+   }
+   .fetured-sale-text{
+   margin: 0;
+   position: absolute;
+   top: 17px;
+   font-size: 41px;
+   color: white;
+   transform: translate(38px, 0px);
+   transition-duration: 1s;
+   }
+   .fetured-sale-text-2{
+   margin: 0;
+   position: absolute;
+   top: 136px;
+   font-size: 41px;
+   color: #111010;
+   transform: rotate(404deg);
+   left: 65px;
+   overflow: hidden;
+   }
+   .featuredimages{
+   position: relative;
+   margin:0 30px;
+   overflow:hidden;
+   }
+   .featuredimages:hover .fetured-sale-text{
+   transform: translate(125px,200px);
+   }
+   .featured-img{
+   width:100%;
+   }
+   .blanck{
+   position: absolute;
+   width: 150px;
+   height: 150px;
+   top: -78px;
+   background: #cafd0e;
+   transform: rotate(-44deg);
+   left: -76px;
+   overflow: hidden;
+   z-index: 1;
+   }
+   .featuredimages:hover .blanck{
+   width:100px;
+   height:100px;
+   top: -56px;
+   left: -52px;
+   }
+   .featured-slider{
+   background-size: 100%;
+   background-repeat: no-repeat;
+   padding-bottom:50px;
+   background-image: url("https://cdn.shopify.com/s/files/1/0584/5942/2883/t/24/assets/shutterstock_1617287977.png");
+   }
+   .featuredslider .slick-dots li button:before{
+   font-size:30px;
+   }
+   .featuredslider .slick-center{
+   scale: 1.09;
+   }
+   .featuredslider .slick-list{
+   padding-top:60px !important;
+   padding-bottom:60px !important;
+   }
+   .featuredimages:hover{
+   background-color: rgba(0,0,0,0.5);
+   z-index: 2;
+   cursor: pointer;
+   }
+   .mxo-trand{
+   position: relative;
+   }
+   .mxtrade-text{
+   font: normal normal normal 80px/50px ALDITH;
+   margin: 0;
+   color:#c9fc13;
+   }
+   .commyunity-text{
+   font-size: 33px;
+   color: white;
+   margin-top: 19px;
+   font-weight: 600;
+   }
+   .commyunity-text::after {
+   content: "";
+   width: 53px;
+   height: 4px;
+   background: #c9fc13;
+   position: absolute;
+   bottom: 22px;
+   left: 0;
+   right: 0;
+   margin: auto;
+   }
+   .overlay {
+   position: absolute;
+   display: none;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: rgba(0,0,0,0.5);
+   z-index: 2;
+   cursor: pointer;
+   }
+   .featuredimages:hover .overlay{
+   display:block;
+   }
+   .featuredimages:hover .fetured-sale-text::after{
+   content: "";
+   width: 30px;
+   height: 3px;
+   background: #c9fc13;
+   position: absolute;
+   bottom: -11px;
+   left: 15px;
+   right: 0;
+   transition: width 0.5s;
+   }
+   .tradeshopnow-text{
+   display:inline-block;
+   position: relative;
+   margin-left:30px;
+   }
+   .mxo-logo{
+   vertical-align: middle;
+   }
+   .trade-texts{
+   margin: 0;
+   font-size: 65px;
+   }
+   .shopnow-texts{
+   margin: 0;
+   font-size: 45px;
+   }
+   .shopnow-texts::after{
+   content: "";
+   width: 100px;
+   height: 3px;
+   background: #c9fc13;
+   position: absolute;
+   bottom: -5px;
+   left: 75px;
+   right: 0;
+   }
+   .maxx-main{
+   position: relative;
+   }
+   .maxx-main:hover .mxo-logos{
+   display:block;
+   }
+   .mxo-logos{
+   display:none;
+   position: absolute;
+   bottom: 0;
+   background: #00000091;
+   width: 100%;
+   color: white;
+   height: 100%;
+   }
+   .maxx-main:hover .overlay{
+   display:block;
+   }
+   .maxx-main:hover .mxo-trand-perant{
+   display:none;
+   }
+   .mxo-trand-perant{
+   position: absolute;
+   bottom: 7%;
+   left: 7%;
+   text-align: center;
+   }
+   .mxo-logo-parent{
+   margin-top:12%;
+   margin-left:10%;
+   }
+   .vip-member-main:hover .vip-text{
+   height: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   }
+   .vip-member-main:hover .overlay{
+   display:block;
+   }
+   .vip-text{
+   display: none;
+   position: absolute;
+   bottom: 0;
+   color: white;
+   left: 0;
+   text-align: center;
+   right: 0;
+   justify-content: center;
+   align-items: center;
+   }
+   .vip-img{
+   position: relative;
+   }
+   .vipmember-img{
+   width:100%;
+   }
+   .vip-member-main{
+   position: relative;
+   }
+   .vip-club-text{
+   font-size: 40px;
+   margin:0;
+   } 
+   .vip-club-explore{
+   font-size:20px;
+   }
+   .vip-club-explore::after { 
+   content: "";
+   width: 30px;
+   height: 3px;
+   background: #c9fc13;
+   position: absolute;
+   bottom: 40%;
+   left: 48%;
+   right: 0;
+   }
+   .charity-text:hover .donote{
+   height: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   background: #000000ab;
+   }
+   .charity-text:hover .overlay{
+   display:block;
+   }
+   .donote{
+   display: none;
+   position: absolute;
+   bottom: 0;
+   color: white;
+   left: 0;
+   text-align: center;
+   right: 0;
+   justify-content: center;
+   align-items: center;
+   }
+  .gift-voucher:hover .gift-vouchar-text{
+    height: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+  }
+   .gift-voucher:hover .overlay{
+   display:block;
+   }
+  .gift-vouchar-text{
+   display: none;
+   position: absolute;
+   bottom: 0;
+   color: white;
+   left: 0;
+   text-align: center;
+   right: 0;
+   justify-content: center;
+   align-items: center;
+    background:#00000087;
+   }
+  .gift-voucher{
+    position: relative;
+  }
+  .voucher-text{
+    font-size:30px;
+  }
+  .gift-explore-trxt{
+    font-size:20px;
+  }
+  .giftpvoucher-img{
+  width:100%;
+  }
+  .section-1{
+    display:inline-block;
+    width:50%;
+  }
+  .section-2{
+    display:inline-block;
+    width:49%;
+  }
+  .lounching-img{
+  width:100%;
+  }
+  .motozone-img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    position: relative;
+  }
+  .motozone-text{
+      font: normal normal normal 55px/50px ALDITH;
+    position: absolute;
+    right: 81px;
+    bottom: 35px;
+    color: #C8FF0B;
+    font-weight: 600;
+  }
+  .motozone:hover .logos-text{
+    display:block;
+  }
+    .motozone:hover .overlay{
+   display:block;
+   }
+   .logos-text{  
+     display: none;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    left: 65px;
+   }
+    .motozone{
+    position: relative;
+  }
+  .motozone-img-2{
+    width:235px;
+    height:200px;
+  }
+  .motozone:hover .logo-explore-text{
+    display:block;
+  }
+  .logo-explore-text{
+    display:none;
+        position: absolute;
+    right: 13%;
+    font-size: 20px;
+    font-weight: 600;
+    bottom: 23px;
+    color: white; 
+  }
+  .upcoming-event{
+    width:100%;
+  }
