@@ -809,9 +809,12 @@
     display:block;
   }
   .mxtrade-text{
-    font: 40px/50px ALDITH;
+    font: 45px/50px ALDITH;
   }
   .mxo-trand-perant{
     left:15px;
+  }
+  .commyunity-text{
+    font-size:27px;
   }
 }
