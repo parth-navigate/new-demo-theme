@@ -1,3 +1,7 @@
+
+.counter{
+  display: flex;
+}
 .footer-socialmedia-logo:hover{
     background:#cafd0a;
   }
