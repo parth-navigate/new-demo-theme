@@ -71,7 +71,15 @@ $(document).ready(function(){
 
 });
 
- 
+// Demo js
+$(document).ready(function(){
+  $(".topbrand-text").click(function(){
+    $(this).hide();
+  });
+});
+
+
+
 // $('.our-gear-slider').slick({
 //   slidesToShow: 1,
 //   slidesToScroll: 2,
