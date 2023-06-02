@@ -797,6 +797,9 @@
   .main-logo{
     width:100px;
   }
+  .brandimages{
+    width:33.33%;
+  }
 }
 @media only screen and (max-width: 500px){
 	/* For mobile phone */
