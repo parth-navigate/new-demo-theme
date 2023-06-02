@@ -75,6 +75,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $(".topbrand-text").click(function(){
     $(this).hide();
+    $("topbrand-text").fadeIn(3000);
   });
    $(".brandimages").click(function(){
     $("p").show();
