@@ -259,3 +259,13 @@ function update(){
 
 update();
 window.setInterval(update, 1000);
+
+
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown(5000);
+  });
+  $("#stop").click(function(){
+    $("#panel").stop();
+  });
+});
