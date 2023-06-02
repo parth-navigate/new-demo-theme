@@ -75,10 +75,11 @@ $(document).ready(function(){
 $(document).ready(function(){
   $(".topbrand-text").click(function(){
     $(this).hide();
+    $(".topbrand-text").fadeIn(6000);
   });
    $(".brandimages").click(function(){
     $("p").show();
-    $(".topbrand-text").fadeIn(7000);
+    
   });
 });
 
