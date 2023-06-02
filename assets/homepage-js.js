@@ -253,6 +253,7 @@ function update(){
   $sOut.text(seconds);
   $ampmOut.text(ampm);
   $dOut.text(days);
+  $('#day1').text(dayOfWeek)
 } 
 
 update();
