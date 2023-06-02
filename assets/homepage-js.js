@@ -73,8 +73,11 @@ $(document).ready(function(){
 
 // Demo js
 $(document).ready(function(){
-  $(".topbrand-text").click(function(){
+  $(".topbrand-text").click(function()
+  $(".brandimages").click(function()                         
+                            {
     $(this).hide();
+    $(this).show();
   });
 });
 
