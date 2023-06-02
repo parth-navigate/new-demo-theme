@@ -1,6 +1,7 @@
 
 .counter{
   display: flex;
+  color:white;
 }
 .footer-socialmedia-logo:hover{
     background:#cafd0a;
