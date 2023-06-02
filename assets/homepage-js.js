@@ -112,6 +112,7 @@ $(document).ready(function(){
     dots:true,
     margin:25,
     center: true,
+    centerPadding: '200px',
   	responsiveClass:true,
     responsive:{
         767:{
