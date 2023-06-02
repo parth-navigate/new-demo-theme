@@ -118,7 +118,7 @@ $(document).ready(function(){
         	items:1
         },
         1080:{
-        	items:3
+        	items:2
         }
 
     }
