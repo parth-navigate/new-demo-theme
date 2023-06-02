@@ -110,7 +110,7 @@ $(document).ready(function(){
     autoplay:true,
     slideSpeed:300,
     dots:true,
-    margin:25,
+    margin:50,
     center: true,
   	responsiveClass:true,
     responsive:{
