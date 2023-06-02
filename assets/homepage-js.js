@@ -276,3 +276,9 @@ $(document).ready(function(){
     $("div").animate({left: '250px'});
   });
 });
+
+$(document).ready(function(){
+  $("button").click(function(){
+    alert("Background color = " + $("p").css("background-color"));
+  });
+});
