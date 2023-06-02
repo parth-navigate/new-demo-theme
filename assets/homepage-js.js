@@ -73,9 +73,7 @@ $(document).ready(function(){
 
 // Demo js
 $(document).ready(function(){
-  $(".topbrand-text").click(function()
-  $(".brandimages").click(function()                         
-                            {
+  $(".topbrand-text").click(function(){
     $(this).hide();
     $(this).show();
   });
