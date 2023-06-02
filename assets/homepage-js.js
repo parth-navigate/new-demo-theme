@@ -247,11 +247,12 @@ function update(){
   
   var dateString = dayOfWeek + ', ' + month + ' ' + day + ', ' + year;
   
-  $dOut.text(days);
+  
   $hOut.text(hours);
   $mOut.text(minutes);
   $sOut.text(seconds);
   $ampmOut.text(ampm);
+  $dOut.text(days);
 } 
 
 update();
