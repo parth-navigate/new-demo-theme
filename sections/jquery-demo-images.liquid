@@ -60,7 +60,28 @@
     </div>
   </div>
 </div>
+
+<button id="stop">Stop sliding</button>
+
+<div id="flip">Click to slide down panel</div>
+<div id="panel">Hello world!</div>
+
+
 <style>
+  #panel, #flip {
+  padding: 5px;
+  font-size: 18px;
+  text-align: center;
+  background-color: #555;
+  color: white;
+  border: solid 1px #666;
+  border-radius: 3px;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
 body {
   font-family: Verdana, sans-serif;
   margin: 0;
