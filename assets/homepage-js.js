@@ -105,7 +105,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $(".our-gear-slider").owlCarousel({
   	items:1,
-  	loop:false,
+  	loop:true,
   	nav:true,
     autoplay:true,
     slideSpeed:300,
