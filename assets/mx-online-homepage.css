@@ -1,6 +1,8 @@
 .timing-option{
       margin-right: 25px;
     text-align: center;
+  font-size: 20px;
+    font-weight: 700;
 }
 .counter{
   display: flex;
