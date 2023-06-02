@@ -129,9 +129,9 @@ $(document).ready(function(){
 $(document).ready(function(){
   $(".featuredslider").owlCarousel({
   	items:1,
-  	loop:false,
+  	loop:true,
   	nav:true,
-    autoplay:false,
+    autoplay:true,
     slideSpeed:300,
     dots:true,
     margin:25,
