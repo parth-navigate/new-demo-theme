@@ -265,7 +265,7 @@ $(document).ready(function(){
   $("#flip").click(function(){
     $("#panel").slideDown(5000);
   });
-  $("#flip").click(function(){
+  $("#stop").click(function(){
     $("#panel").stop();
   });
 });
