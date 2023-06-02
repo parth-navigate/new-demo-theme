@@ -107,7 +107,7 @@ $(document).ready(function(){
   	items:1,
   	loop:false,
   	nav:true,
-    autoplay:false,
+    autoplay:true,
     slideSpeed:300,
     dots:true,
     margin:25,
