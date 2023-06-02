@@ -351,6 +351,15 @@
           "whatsapp-logo": "shopify:\/\/shop_images\/whatsapp.png",
           "livechat-logo": "shopify:\/\/shop_images\/Live_Chat.png"
         }
+      },
+      "jquery-demo-images": {
+        "type": "jquery-demo-images",
+        "settings": {
+          "mx-online-logo-1": "shopify:\/\/shop_images\/pexels-vedran-miletic-2341558.png",
+          "mx-online-logo-2": "shopify:\/\/shop_images\/5975d751618331.58f4bb42f3ed0.png",
+          "mx-online-logo-3": "shopify:\/\/shop_images\/shutterstock_1103989091.png",
+          "mx-online-logo-4": "shopify:\/\/shop_images\/shutterstock_756414517.png"
+        }
       }
     },
     "content_for_index": [
