@@ -78,7 +78,6 @@ $(document).ready(function(){
   });
    $(".brandimages").click(function(){
     $("p").show();
-     $(".topbrand-text").fadeToggle("slow");
   });
 });
 
