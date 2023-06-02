@@ -111,7 +111,7 @@ $(document).ready(function(){
     slideSpeed:300,
     dots:true,
     margin:25,
-    center:true,
+    center: true,
   	responsiveClass:true,
     responsive:{
         767:{
