@@ -291,6 +291,12 @@
             "settings": {
               "brand-images": "shopify:\/\/shop_images\/Component_88_3.png"
             }
+          },
+          "0897388a-e289-4b8f-90d1-b835bd9ea82c": {
+            "type": "0urgear-images",
+            "settings": {
+              "ourgear-slider-img": "shopify:\/\/shop_images\/shutterstock_1103989091.png"
+            }
           }
         },
         "block_order": [
@@ -315,7 +321,8 @@
           "d61f8541-a960-442e-8d5a-62ac5ed057a3",
           "a252938a-bce3-40e2-b8e6-c3e0e1646e50",
           "96f266a5-2a72-47f2-861a-61634341d359",
-          "14b25996-cdea-4782-91f8-902e823d4352"
+          "14b25996-cdea-4782-91f8-902e823d4352",
+          "0897388a-e289-4b8f-90d1-b835bd9ea82c"
         ],
         "settings": {
           "mx-online-logo": "shopify:\/\/shop_images\/Group_5369.svg",
