@@ -78,7 +78,7 @@ $(document).ready(function(){
   });
    $(".brandimages").click(function(){
     $("p").show();
-    $(".brandimages").fadeIn(100);
+    $(".brandimages").fadeIn(7000);
   });
 });
 
