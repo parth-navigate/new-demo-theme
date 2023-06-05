@@ -176,5 +176,7 @@ $(document).ready(function(){
   $(".selection_chip").click(function(){
     //$(".outputhtml").html(jQuery(this).attr('attval'));
     $(".outputhtml").html(jQuery(this).html());
+    $(".selection_chip").addClass("active");  
+   
   });
 });
