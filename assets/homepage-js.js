@@ -176,7 +176,7 @@ $(document).ready(function(){
   $(".selection_chip").click(function(){
     //$(".outputhtml").html(jQuery(this).attr('attval'));
     $(".outputhtml").html(jQuery(this).html());
-    $(".tab").removeClass("active");
+    $(".active").removeClass("active");
     $(this).addClass("active");
   });
 });
