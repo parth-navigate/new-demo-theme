@@ -9,11 +9,13 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
   {{ content_for_header }} <!-- Header hook for plugins -->
   {{ 'application.css' | asset_url | stylesheet_tag }}
-    <link rel="stylesheet" href="{{ 'jquery-ui.css' | asset_url }}">
   <link rel="stylesheet" href="{{ 'shopnect.css' | asset_url }}">
   {{ 'application.js' | asset_url | script_tag }}
   
-  
+   {{ 'jquery-ui.css' | asset_url | stylesheet_tag}}
+   <script src="{{ 'jquery-3.6.0.js' | asset_url }}"></script>
+  <script src="{{ 'jquery-ui.js' | asset_url }}"></script>
+   <script src="{{ 'new-demo.js' | asset_url }}" ></script>
 
 </head>
 <body style="margin:0;">
@@ -82,10 +84,7 @@
   <script src="{{ 'slick.min.js' | asset_url }}"></script>
   <script src="{{ 'homepage-js.js' | asset_url }}" ></script>
 
-   {{ 'jquery-ui.css' | asset_url | stylesheet_tag}}
-   <script src="{{ 'jquery-3.6.0.js' | asset_url }}"></script>
-  <script src="{{ 'jquery-ui.js' | asset_url }}"></script>
-   <script src="{{ 'new-demo.js' | asset_url }}" ></script>
+  
    {% if settings.multipulfooteroption == 'footer-1' %}
   {% section 'footer-1'%}
     {% endif %} 
