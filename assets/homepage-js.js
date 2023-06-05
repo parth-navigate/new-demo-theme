@@ -172,6 +172,6 @@ $(document).ready(function(){
 $(document).ready(function(){
   jQuery(".selection_chip").click(function(){
     console.log(jQuery(this).attr('attval'));
-     $("selection_chip")(this).append("<li>Appended item</li>");
+     $("selection_chip")(this).append("<li></li>");
   });
 });
