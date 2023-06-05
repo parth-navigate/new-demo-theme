@@ -13,9 +13,7 @@
   <link rel="stylesheet" href="{{ 'shopnect.css' | asset_url }}">
   {{ 'application.js' | asset_url | script_tag }}
   
-   <script src="{{ 'jquery-3.6.0.js' | asset_url }}"></script>
-  <script src="{{ 'jquery-ui.js' | asset_url }}"></script>
-   <script src="{{ 'new-demo.js' | asset_url }}" ></script>
+  
 
 </head>
 <body style="margin:0;">
@@ -85,7 +83,9 @@
   <script src="{{ 'homepage-js.js' | asset_url }}" ></script>
 
   
-  
+   <script src="{{ 'jquery-3.6.0.js' | asset_url }}"></script>
+  <script src="{{ 'jquery-ui.js' | asset_url }}"></script>
+   <script src="{{ 'new-demo.js' | asset_url }}" ></script>
   
    {% if settings.multipulfooteroption == 'footer-1' %}
   {% section 'footer-1'%}
