@@ -177,7 +177,5 @@ $(document).ready(function(){
     //$(".outputhtml").html(jQuery(this).attr('attval'));
     $(".outputhtml").html(jQuery(this).html());
     $(this).addClass("active");
-    $(this).removeClass("active")
-   
   });
 });
