@@ -170,9 +170,6 @@ $(document).ready(function(){
 // });
 
 $(document).ready(function(){
-  $("#btn1").click(function(){
-    $("p").append(" <b>Appended text</b>.");
-  });
   jQuery(".selection_chip").click(function(){
     console.log(jQuery(this).attr('attval'));
   });
