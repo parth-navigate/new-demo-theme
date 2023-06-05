@@ -180,7 +180,7 @@ $(document).ready(function(){
   });
 });
 
-var header = document.getElementById("append-demo");
+var header = document.getElementById("myDIV");
 var btns = header.getElementsByClassName("selection_chip");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {
