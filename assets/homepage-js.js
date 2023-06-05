@@ -171,6 +171,6 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   jQuery(".selection_chip").click(function(){
-    console.log(jQuery(this).attr('attval'));
+    console.log(jQuery(this).attr('<li></li>'));
   });
 });
