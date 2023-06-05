@@ -178,7 +178,4 @@ $(document).ready(function(){
     $(".outputhtml").html(jQuery(this).html());
     $(this).addClass("active");
   });
-      $('li').click((e)=>{ 
-       $('.active').removeClass('active'); 
-    });
 });
